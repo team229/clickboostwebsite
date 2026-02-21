@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="ClickBoost Media - AI-powered digital marketing solutions. More clicks, more customers.">
+    <title>Contact Us - ClickBoost Media</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4A6572',
+                        accent: '#1A8ACA',
+                        'accent-dark': '#156d9f',
+                        'navy': '#0F172A',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                    },
+                    animation: {
+                        'slow-spin': 'spin 20s linear infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                        'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        },
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .mesh-gradient {
+            background-color: #ffffff;
+            background-image:
+                radial-gradient(at 0% 0%, rgba(26, 138, 202, 0.1) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(74, 101, 114, 0.1) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(26, 138, 202, 0.1) 0px, transparent 50%),
+                radial-gradient(at 0% 100%, rgba(74, 101, 114, 0.1) 0px, transparent 50%);
+        }
+    </style>
+</head>
+
+<body class="font-sans antialiased text-gray-700 bg-white selection:bg-accent/30">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="flex items-center group">
+                    <img src="./clickboostmedia.png" alt="ClickBoost Media"
+                        class="h-12 w-auto transition-transform group-hover:scale-105" />
+                </a>
+
+                <!-- Desktop menu -->
+                <ul class="hidden md:flex items-center gap-10">
+                    <li><a href="index.html"
+                            class="text-sm font-semibold text-gray-900 hover:text-accent transition-colors">Home</a>
+                    </li>
+                    <li><a href="about.html"
+                            class="text-sm font-semibold text-gray-600 hover:text-accent transition-colors">About</a>
+                    </li>
+                    <li><a href="services.html"
+                            class="text-sm font-semibold text-gray-600 hover:text-accent transition-colors">Services</a>
+                    </li>
+                    <li><a href="contact.html"
+                            class="text-sm font-semibold text-gray-600 hover:text-accent transition-colors">Contact</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"
+                            class="px-6 py-2.5 bg-navy text-white text-sm font-bold rounded-full hover:bg-accent transition-all hover:shadow-lg hover:shadow-accent/20 transform hover:-translate-y-0.5">
+                            Get Started
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Mobile menu button -->
+                <button onclick="toggleMenu()" class="md:hidden p-2 text-gray-900">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile menu -->
+        <div id="mobileMenu" class="hidden md:hidden glass border-t border-gray-100">
+            <div class="px-4 py-6 space-y-4">
+                <a href="index.html" class="block text-lg font-medium text-gray-900">Home</a>
+                <a href="about.html" class="block text-lg font-medium text-gray-600">About</a>
+                <a href="services.html" class="block text-lg font-medium text-gray-600">Services</a>
+                <a href="contact.html" class="block text-lg font-medium text-gray-600">Contact</a>
+                <a href="contact.html"
+                    class="block text-center px-6 py-3 bg-accent text-white font-bold rounded-xl mt-6">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-48 pb-24 lg:pt-64 lg:pb-32 px-4 sm:px-6 lg:px-8 overflow-hidden mesh-gradient">
+        <div class="max-w-7xl mx-auto relative text-center">
+            <h1
+                class="font-display text-6xl sm:text-7xl font-extrabold text-navy tracking-tight mb-8 animate-fade-in-up">
+                Start the <span
+                    class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-primary">Transformation.</span>
+            </h1>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-light animate-fade-in-up"
+                style="animation-delay: 0.1s;">
+                Ready to secure your market dominance? Tell us about your goals, and we'll engineer the path to get
+                there.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-32 px-4 sm:px-6 lg:px-8 bg-white relative">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col lg:flex-row gap-20">
+                <!-- Contact Form Card -->
+                <div class="lg:w-3/5">
+                    <div
+                        class="p-8 sm:p-12 bg-gray-50/50 rounded-[3rem] border border-gray-100 shadow-sm relative overflow-hidden">
+                        <div
+                            class="absolute top-0 right-0 w-64 h-64 bg-accent/5 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl">
+                        </div>
+
+                        <form action="#" class="relative space-y-8">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                                <div class="space-y-2">
+                                    <label class="text-xs font-bold text-gray-400 uppercase tracking-widest px-1">Full
+                                        Name</label>
+                                    <input type="text" placeholder="John Doe"
+                                        class="w-full bg-white border border-gray-200 rounded-2xl px-6 py-4 focus:outline-none focus:border-accent transition-all font-light"
+                                        required>
+                                </div>
+                                <div class="space-y-2">
+                                    <label
+                                        class="text-xs font-bold text-gray-400 uppercase tracking-widest px-1">Company</label>
+                                    <input type="text" placeholder="Acme Inc."
+                                        class="w-full bg-white border border-gray-200 rounded-2xl px-6 py-4 focus:outline-none focus:border-accent transition-all font-light">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                                <div class="space-y-2">
+                                    <label class="text-xs font-bold text-gray-400 uppercase tracking-widest px-1">Email
+                                        Address</label>
+                                    <input type="email" placeholder="john@acme.com"
+                                        class="w-full bg-white border border-gray-200 rounded-2xl px-6 py-4 focus:outline-none focus:border-accent transition-all font-light"
+                                        required>
+                                </div>
+                                <div class="space-y-2">
+                                    <label class="text-xs font-bold text-gray-400 uppercase tracking-widest px-1">Phone
+                                        Number</label>
+                                    <input type="tel" placeholder="(555) 123-4567"
+                                        class="w-full bg-white border border-gray-200 rounded-2xl px-6 py-4 focus:outline-none focus:border-accent transition-all font-light">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                                <div class="space-y-2">
+                                    <label
+                                        class="text-xs font-bold text-gray-400 uppercase tracking-widest px-1">Goal</label>
+                                    <select
+                                        class="w-full bg-white border border-gray-200 rounded-2xl px-6 py-4 focus:outline-none focus:border-accent transition-all font-light appearance-none">
+                                        <option>Scale Revenue</option>
+                                        <option>Dominate Search</option>
+                                        <option>Build Authority</option>
+                                        <option>Full Digital Audit</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="space-y-2">
+                                <label class="text-xs font-bold text-gray-400 uppercase tracking-widest px-1">Your
+                                    Vision</label>
+                                <textarea rows="4" placeholder="Briefly describe your growth objectives..."
+                                    class="w-full bg-white border border-gray-200 rounded-2xl px-6 py-4 focus:outline-none focus:border-accent transition-all font-light resize-none"></textarea>
+                            </div>
+
+                            <button type="submit"
+                                class="w-full py-5 bg-navy text-white font-bold rounded-2xl hover:bg-accent hover:-translate-y-1 transition-all shadow-xl shadow-navy/10 flex items-center justify-center gap-3 group">
+                                Initiate Contact
+                                <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none"
+                                    stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="lg:w-2/5 space-y-16">
+                    <div>
+                        <h2 class="font-display text-4xl font-bold text-navy mb-8">Direct Access</h2>
+                        <div class="space-y-10">
+                            <div class="flex items-start gap-6">
+                                <div
+                                    class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center shrink-0">
+                                    <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="text-sm font-bold text-gray-400 uppercase tracking-widest mb-1">Strategic
+                                        Enquiries</p>
+                                    <p class="text-lg text-navy font-bold">info@clickboostmedia.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0b1120] text-white py-20 px-4 sm:px-6 lg:px-8 border-t border-white/5">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mb-20">
+                <div class="space-y-8">
+                    <img src="./clickboostmedia.png" alt="ClickBoost Media" class="h-10 opacity-80" />
+                    <p class="text-gray-500 leading-relaxed font-light">
+                        Redefining the digital landscape through data, design, and AI-driven growth engineering.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-display text-lg font-bold mb-8">Expertise</h4>
+                    <div class="grid grid-cols-1 gap-4 text-gray-500">
+                        <a href="service-seo.html" class="hover:text-accent transition-colors">Strategic SEO</a>
+                        <a href="service-ppc.html" class="hover:text-accent transition-colors">Paid Performance</a>
+                        <a href="service-social-media.html" class="hover:text-accent transition-colors">Social
+                            Narratives</a>
+                        <a href="service-web-design.html" class="hover:text-accent transition-colors">UX Design</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-display text-lg font-bold mb-8">Company</h4>
+                    <div class="grid grid-cols-1 gap-4 text-gray-500">
+                        <a href="about.html" class="hover:text-accent transition-colors">Our Ethos</a>
+                        <a href="services.html" class="hover:text-accent transition-colors">Solutions</a>
+                        <a href="contact.html" class="hover:text-accent transition-colors">Contact</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-12 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-8">
+                <p class="text-gray-600 text-sm font-light">
+                    &copy; 2026 ClickBoost Media. Engineered with Precision.
+                </p>
+                <div class="flex items-center gap-8">
+                    <a href="#" class="text-gray-600 hover:text-white transition-all"><span
+                            class="sr-only">LinkedIn</span><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('mobileMenu').classList.toggle('hidden');
+        }
+
+        window.onscroll = function () {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('glass', 'shadow-sm', 'h-20');
+                nav.classList.remove('h-24');
+            } else {
+                nav.classList.remove('glass', 'shadow-sm');
+                nav.classList.add('h-24');
+            }
+        };
+    </script>
+</body>
+
+</html>

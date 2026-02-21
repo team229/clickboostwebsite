@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="ClickBoost Media - AI-powered digital marketing solutions. More clicks, more customers.">
+    <title>SEO Services - ClickBoost Media</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4A6572',
+                        accent: '#1A8ACA',
+                        'accent-dark': '#156d9f',
+                        'navy': '#0F172A',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                    },
+                    animation: {
+                        'slow-spin': 'spin 20s linear infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                        'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-20px)' },
+                        },
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .mesh-gradient {
+            background-color: #ffffff;
+            background-image:
+                radial-gradient(at 0% 0%, rgba(26, 138, 202, 0.1) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(74, 101, 114, 0.1) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(26, 138, 202, 0.1) 0px, transparent 50%),
+                radial-gradient(at 0% 100%, rgba(74, 101, 114, 0.1) 0px, transparent 50%);
+        }
+    </style>
+</head>
+
+<body class="font-sans antialiased text-gray-700 bg-white selection:bg-accent/30">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="flex items-center group">
+                    <img src="./clickboostmedia.png" alt="ClickBoost Media"
+                        class="h-12 w-auto transition-transform group-hover:scale-105" />
+                </a>
+
+                <!-- Desktop menu -->
+                <ul class="hidden md:flex items-center gap-10">
+                    <li><a href="index.html"
+                            class="text-sm font-semibold text-gray-900 hover:text-accent transition-colors">Home</a>
+                    </li>
+                    <li><a href="about.html"
+                            class="text-sm font-semibold text-gray-600 hover:text-accent transition-colors">About</a>
+                    </li>
+                    <li><a href="services.html"
+                            class="text-sm font-semibold text-gray-600 hover:text-accent transition-colors">Services</a>
+                    </li>
+                    <li><a href="contact.html"
+                            class="text-sm font-semibold text-gray-600 hover:text-accent transition-colors">Contact</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"
+                            class="px-6 py-2.5 bg-navy text-white text-sm font-bold rounded-full hover:bg-accent transition-all hover:shadow-lg hover:shadow-accent/20 transform hover:-translate-y-0.5">
+                            Get Started
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Mobile menu button -->
+                <button onclick="toggleMenu()" class="md:hidden p-2 text-gray-900">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile menu -->
+        <div id="mobileMenu" class="hidden md:hidden glass border-t border-gray-100">
+            <div class="px-4 py-6 space-y-4">
+                <a href="index.html" class="block text-lg font-medium text-gray-900">Home</a>
+                <a href="about.html" class="block text-lg font-medium text-gray-600">About</a>
+                <a href="services.html" class="block text-lg font-medium text-gray-600">Services</a>
+                <a href="contact.html" class="block text-lg font-medium text-gray-600">Contact</a>
+                <a href="contact.html"
+                    class="block text-center px-6 py-3 bg-accent text-white font-bold rounded-xl mt-6">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-48 pb-24 lg:pt-64 lg:pb-32 px-4 sm:px-6 lg:px-8 overflow-hidden mesh-gradient">
+        <div class="max-w-7xl mx-auto relative text-center">
+            <h1
+                class="font-display text-6xl sm:text-7xl font-extrabold text-navy tracking-tight mb-8 animate-fade-in-up">
+                Strategic <span
+                    class="text-transparent bg-clip-text bg-gradient-to-r from-accent to-primary">SEO.</span>
+            </h1>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed font-light animate-fade-in-up"
+                style="animation-delay: 0.1s;">
+                Engineering search dominance through AI-driven auditing, semantic content mapping, and technical
+                velocity.
+            </p>
+        </div>
+    </section>
+
+    <!-- The Methodology -->
+    <section class="py-32 px-4 sm:px-6 lg:px-8 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-20">
+                <h2 class="font-display text-4xl font-bold text-navy mb-4">The Methodology</h2>
+                <div class="w-20 h-1 bg-accent mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Step 1 -->
+                <div class="relative group">
+                    <div
+                        class="text-9xl font-display font-extrabold text-gray-50 absolute -top-10 -left-4 group-hover:text-accent/10 transition-colors -z-10">
+                        01</div>
+                    <h3 class="font-display text-2xl font-bold text-navy mb-6 mt-8">Algorithmic Audit</h3>
+                    <p class="text-gray-500 font-light leading-relaxed">
+                        We deploy proprietary AI scrapers to map your entire digital footprint and identify technical
+                        bottlenecks and content gaps.
+                    </p>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="relative group">
+                    <div
+                        class="text-9xl font-display font-extrabold text-gray-50 absolute -top-10 -left-4 group-hover:text-accent/10 transition-colors -z-10">
+                        02</div>
+                    <h3 class="font-display text-2xl font-bold text-navy mb-6 mt-8">Semantic Layering</h3>
+                    <p class="text-gray-500 font-light leading-relaxed">
+                        Beyond keywords, we build topical authority by engineering a web of semi-related assets that
+                        signal extreme relevance to search engines.
+                    </p>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="relative group">
+                    <div
+                        class="text-9xl font-display font-extrabold text-gray-50 absolute -top-10 -left-4 group-hover:text-accent/10 transition-colors -z-10">
+                        03</div>
+                    <h3 class="font-display text-2xl font-bold text-navy mb-6 mt-8">Velocity Scaling</h3>
+                    <p class="text-gray-500 font-light leading-relaxed">
+                        Once the foundation is set, we accelerate ranking authority through high-quality asset
+                        distribution and precise link acquisition.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deliverables -->
+    <section class="py-32 px-4 sm:px-6 lg:px-8 bg-gray-50/50">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col lg:flex-row gap-20 items-center">
+                <div class="lg:w-1/2">
+                    <h2 class="font-display text-4xl font-bold text-navy mb-12">Core Deliverables</h2>
+                    <ul class="space-y-6">
+                        <li class="flex items-start gap-4">
+                            <div class="w-6 h-6 bg-accent rounded-full flex items-center justify-center shrink-0 mt-1">
+                                <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                        d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy">Full-Scale Technical Roadmap</h4>
+                                <p class="text-gray-500 text-sm font-light">Surgical repairs for Core Web Vitals and
+                                    crawl stability.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <div class="w-6 h-6 bg-accent rounded-full flex items-center justify-center shrink-0 mt-1">
+                                <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                        d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy">AI-Assisted Content Mapping</h4>
+                                <p class="text-gray-500 text-sm font-light">A comprehensive blueprint for covering every
+                                    relevant search intent.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-4">
+                            <div class="w-6 h-6 bg-accent rounded-full flex items-center justify-center shrink-0 mt-1">
+                                <svg class="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
+                                        d="M5 13l4 4L19 7"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy">Real-time Performance Dashboard</h4>
+                                <p class="text-gray-500 text-sm font-light">Total transparency into rankings, traffic
+                                    flux, and conversion attribution.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-accent/20 blur-3xl rounded-full"></div>
+                        <div class="relative bg-white p-10 rounded-[3rem] shadow-2xl border border-gray-100">
+                            <div class="space-y-6">
+                                <div class="h-4 w-3/4 bg-gray-100 rounded-full"></div>
+                                <div class="h-4 w-full bg-gray-100 rounded-full"></div>
+                                <div class="h-4 w-2/3 bg-gray-100 rounded-full"></div>
+                                <div class="pt-8 grid grid-cols-2 gap-4">
+                                    <div class="h-24 bg-accent/5 rounded-2xl flex flex-col items-center justify-center">
+                                        <span class="text-2xl font-bold text-accent">+140%</span>
+                                        <span class="text-[10px] text-gray-400 font-bold uppercase">Visibility</span>
+                                    </div>
+                                    <div class="h-24 bg-navy/5 rounded-2xl flex flex-col items-center justify-center">
+                                        <span class="text-2xl font-bold text-navy">2.1s</span>
+                                        <span class="text-[10px] text-gray-400 font-bold uppercase">LCP Speed</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="py-32 px-4 sm:px-6 lg:px-8 bg-navy relative overflow-hidden text-center">
+        <div class="absolute inset-0 opacity-10"
+            style="background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 32px 32px;"></div>
+        <div class="max-w-3xl mx-auto relative">
+            <h2 class="font-display text-4xl sm:text-5xl font-extrabold text-white mb-8 leading-tight">Ready to Own the
+                Serp?</h2>
+            <p class="text-xl text-gray-400 mb-12 font-light">
+                Our SEO strategies aren't just about traffic. They're about revenue. Stop guessing and start dominating.
+            </p>
+            <a href="contact.html"
+                class="inline-block px-12 py-6 bg-accent text-white font-bold rounded-2xl hover:bg-accent-dark hover:-translate-y-1 transition-all shadow-xl shadow-accent/20">
+                Request a Custom SEO Audit
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0b1120] text-white py-20 px-4 sm:px-6 lg:px-8 border-t border-white/5">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-20">
+                <div class="space-y-8">
+                    <img src="./clickboostmedia.png" alt="ClickBoost Media" class="h-10 opacity-80" />
+                    <p class="text-gray-500 leading-relaxed font-light">
+                        Redefining the digital landscape through data, design, and AI-driven growth engineering.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-display text-lg font-bold mb-8">Expertise</h4>
+                    <div class="grid grid-cols-1 gap-4 text-gray-500">
+                        <a href="service-seo.html" class="hover:text-accent transition-colors">Strategic SEO</a>
+                        <a href="service-ppc.html" class="hover:text-accent transition-colors">Paid Performance</a>
+                        <a href="service-social-media.html" class="hover:text-accent transition-colors">Social
+                            Narratives</a>
+                        <a href="service-web-design.html" class="hover:text-accent transition-colors">UX Design</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-display text-lg font-bold mb-8">Company</h4>
+                    <div class="grid grid-cols-1 gap-4 text-gray-500">
+                        <a href="about.html" class="hover:text-accent transition-colors">Our Ethos</a>
+                        <a href="services.html" class="hover:text-accent transition-colors">Solutions</a>
+                        <a href="contact.html" class="hover:text-accent transition-colors">Contact</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-display text-lg font-bold mb-8">Join the Vanguard</h4>
+                    <p class="text-gray-500 mb-6 text-sm">Stay ahead of the curve with our monthly digital insights.</p>
+                    <div class="relative group">
+                        <input type="email" placeholder="Enlighten me"
+                            class="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-accent transition-all" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-12 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-8">
+                <p class="text-gray-600 text-sm font-light">
+                    &copy; 2026 ClickBoost Media. Engineered with Precision.
+                </p>
+                <div class="flex items-center gap-8">
+                    <a href="#" class="text-gray-600 hover:text-white transition-all"><span
+                            class="sr-only">LinkedIn</span><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('mobileMenu').classList.toggle('hidden');
+        }
+
+        window.onscroll = function () {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('glass', 'shadow-sm', 'h-20');
+                nav.classList.remove('h-24');
+            } else {
+                nav.classList.remove('glass', 'shadow-sm');
+                nav.classList.add('h-24');
+            }
+        };
+    </script>
+</body>
+
+</html>
