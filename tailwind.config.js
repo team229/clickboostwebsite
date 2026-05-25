@@ -12,7 +12,7 @@ module.exports = {
           DEFAULT: '#334155', // Slate 700
         },
         accent: {
-          DEFAULT: '#2563EB', // Blue 600
+          DEFAULT: '#2E5BFF', // Blue 600
           dark: '#1D4ED8', // Blue 700
         },
       },

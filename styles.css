@@ -7,7 +7,7 @@
 :root {
   /* Professional Color Palette */
   --primary: #4A6572;
-  --accent: #1A8ACA;
+  --accent: #2E5BFF;
   --background: #D5DADE;
   --white: #ffffff;
   --black: #0f1419;
@@ -180,9 +180,9 @@ ul { list-style: none; }
 }
 
 .btn-primary:hover {
-  background: #1577b3;
+  background: #1D4ED8;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(26, 138, 202, 0.3);
+  box-shadow: 0 4px 12px rgba(46, 91, 255, 0.3);
 }
 
 .btn-outline {
