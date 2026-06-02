@@ -1,33 +1,53 @@
 # ClickBoost Media
 
-AI-powered digital marketing website built with Tailwind CSS v4.
+AI-powered digital marketing website built with **React + Vite + Tailwind CSS v4**.
 
 ## Tech Stack
 
-- **Tailwind CSS v4** – utility-first CSS framework
-- **Vanilla HTML** – no JavaScript framework
-- **Netlify** – deployment & hosting
+- **React 19** – UI framework
+- **React Router 7** – client-side routing
+- **Tailwind CSS v4** – utility-first CSS
+- **Vite 6** – build tool
+- **Netlify** – hosting & deployment
 
 ## Getting Started
 
 ```bash
 npm install
-npm run dev       # watch mode for CSS
+npm run dev       # dev server at http://localhost:5173
 npm run build     # production build to out/
+npm run preview   # preview production build
 ```
 
 ## Project Structure
 
 ```
-├── index.html              # Home page
-├── about.html              # About us
-├── services.html           # Services overview
-├── contact.html            # Contact page
-├── service-*.html          # Individual service pages
-├── input.css               # Tailwind CSS entry point
-├── tailwind.config.js      # Theme configuration
-├── netlify.toml            # Netlify deploy settings
-└── out/                    # Build output (gitignored)
+src/
+├── components/
+│   ├── Layout.jsx       # Navbar + Footer wrapper
+│   ├── Navbar.jsx       # Navigation (mobile + desktop)
+│   └── Footer.jsx       # Footer with links
+├── pages/
+│   ├── Home.jsx
+│   ├── About.jsx
+│   ├── Contact.jsx
+│   ├── Services.jsx
+│   ├── ServiceSEO.jsx
+│   ├── ServiceLocalSEO.jsx
+│   ├── ServicePPC.jsx
+│   ├── ServiceSocialMedia.jsx
+│   ├── ServiceContent.jsx
+│   ├── ServiceEmail.jsx
+│   └── ServiceWebDesign.jsx
+├── App.jsx              # Route definitions
+├── main.jsx             # Entry point
+└── index.css            # Tailwind entry + theme
+
+public/
+└── _redirects           # Netlify SPA fallback rule
+
+netlify.toml             # Netlify deploy config
+vite.config.js           # Vite + Tailwind plugin
 ```
 
 ## Build
@@ -37,8 +57,8 @@ npm run build
 ```
 
 Output goes to `out/`:
-- Compiled & minified `styles.css`
-- All HTML files copied
+- `index.html` – single HTML entry (SPA)
+- `assets/` – hashed JS & CSS bundles
 
 ## Deployment
 
@@ -49,8 +69,4 @@ Output goes to `out/`:
 3. Build: `npm run build`
 4. Publish: `out/`
 
-**Manual** (any S3-compatible host):
-
-```bash
-./deploy.sh <bucket-name>
-```
+All routes fall back to `index.html` via `_redirects` (handled automatically by Netlify).
