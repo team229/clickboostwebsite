@@ -18,7 +18,7 @@ jobs:
         run: npm ci
 
       - name: Build CSS
-        run: npx tailwindcss -i ./input.css -o ./styles.css --minify
+        run: npm run build
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4

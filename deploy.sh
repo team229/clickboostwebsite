@@ -15,7 +15,7 @@ if [ -n "$ENDPOINT" ]; then
 fi
 
 echo "Building Tailwind CSS..."
-npx tailwindcss -i ./input.css -o ./styles.css --minify
+npm run build
 
 echo "Deploying to s3://$BUCKET ..."
 
