@@ -11,6 +11,7 @@ import ServiceSocialMedia from "./pages/ServiceSocialMedia";
 import ServiceContent from "./pages/ServiceContent";
 import ServiceEmail from "./pages/ServiceEmail";
 import ServiceWebDesign from "./pages/ServiceWebDesign";
+import Pricing from "./pages/Pricing";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/pricing" element={<Pricing />} />
         <Route path="/service-seo" element={<ServiceSEO />} />
         <Route path="/service-local-seo" element={<ServiceLocalSEO />} />
         <Route path="/service-ppc" element={<ServicePPC />} />
