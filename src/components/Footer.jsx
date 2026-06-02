@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Logo from "./Logo";
 
 export default function Footer() {
   return (
@@ -6,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 mb-12">
           <div>
-            <h4 className="text-xl font-bold mb-4">ClickBoost Media</h4>
+            <Logo framed imageClassName="h-16 w-auto" className="mb-5" />
             <p className="text-gray-400 text-sm leading-relaxed">Your partner for digital growth.</p>
           </div>
           <div>

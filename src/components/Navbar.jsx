@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import Logo from "./Logo";
 
 const links = [
   { to: "/", label: "Home" },
@@ -21,9 +22,7 @@ export default function Navbar() {
     <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="text-2xl font-bold text-gray-900">
-            Click<span className="text-accent">Boost</span>
-          </Link>
+          <Logo imageClassName="h-11 sm:h-12 w-auto" />
 
           <button onClick={() => setOpen(!open)} className="md:hidden p-2">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
