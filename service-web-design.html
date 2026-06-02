@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI-powered web design that converts visitors into customers. Fast, responsive, and conversion-focused websites.">
+    <title>Web Design & Development - Clickboost Media</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .service-detail {
+            padding: 6rem 2rem;
+            background: var(--white);
+        }
+
+        .service-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 4rem;
+        }
+
+        .service-main h2 {
+            margin-bottom: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .service-main h2:first-child {
+            margin-top: 0;
+        }
+
+        .service-main ul {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+
+        .service-main ul li {
+            padding: 0.75rem 0;
+            padding-left: 2rem;
+            position: relative;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        .service-main ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+            font-size: 1.25rem;
+        }
+
+        .service-sidebar {
+            position: sticky;
+            top: 100px;
+            height: fit-content;
+        }
+
+        .sidebar-card {
+            background: var(--light-gray);
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+
+        .sidebar-card h3 {
+            margin-bottom: 1.5rem;
+        }
+
+        .sidebar-card .btn {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .sidebar-card .btn:last-child {
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 968px) {
+            .service-content {
+                grid-template-columns: 1fr;
+            }
+
+            .service-sidebar {
+                position: static;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Click<span>Boost</span> Media</a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="btn btn-primary">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Web Design & Development</h1>
+        <p>Conversion-focused websites built with AI-powered UX and cutting-edge technology.</p>
+    </section>
+
+    <!-- Service Detail -->
+    <section class="service-detail">
+        <div class="service-content">
+            <div class="service-main">
+                <h2>Strategic Web Design & Development</h2>
+                <p>Your website is your most important marketing asset. We design and build websites that don't just look good—they convert visitors into customers and support your business goals.</p>
+                <ul>
+                    <li>Custom website design aligned with your brand</li>
+                    <li>User research and customer journey mapping</li>
+                    <li>Wireframing and prototyping</li>
+                    <li>Conversion rate optimization (CRO)</li>
+                    <li>Analytics integration and tracking</li>
+                </ul>
+
+                <h2>Responsive, Mobile-First Design</h2>
+                <p>With over 60% of web traffic coming from mobile devices, mobile optimization isn't optional—it's essential. Every site we build is mobile-first and fully responsive.</p>
+                <ul>
+                    <li>Mobile-optimized layouts and navigation</li>
+                    <li>Touch-friendly interfaces</li>
+                    <li>Fast loading on all devices</li>
+                    <li>Cross-browser compatibility</li>
+                    <li>Progressive web app (PWA) capabilities</li>
+                </ul>
+
+                <h2>Conversion-Centered UX/UI</h2>
+                <p>Beautiful design means nothing if it doesn't convert. We apply proven UX principles and conduct A/B testing to ensure your website drives results.</p>
+                <ul>
+                    <li>Clear calls-to-action (CTAs)</li>
+                    <li>Optimized form design</li>
+                    <li>Strategic content placement</li>
+                    <li>Trust signals and social proof</li>
+                    <li>Frictionless checkout processes</li>
+                </ul>
+
+                <h2>AI-Powered UX for Hyper-Personalization</h2>
+                <p>Deliver personalized experiences that adapt to each visitor. Our AI-powered features increase engagement and conversions by showing the right content to the right person.</p>
+                <ul>
+                    <li>Personalized content recommendations</li>
+                    <li>Behavioral targeting and segmentation</li>
+                    <li>Dynamic pricing and offers</li>
+                    <li>Smart search and product recommendations</li>
+                    <li>Predictive user flow optimization</li>
+                </ul>
+
+                <h2>Intelligent Chatbots for 24/7 Engagement</h2>
+                <p>Never miss a lead. Our AI chatbots provide instant responses to visitor questions, qualify leads, and schedule appointments—even when you're asleep.</p>
+                <ul>
+                    <li>Custom chatbot development</li>
+                    <li>Lead qualification automation</li>
+                    <li>Multi-language support</li>
+                    <li>CRM and email integration</li>
+                    <li>Conversation analytics and optimization</li>
+                </ul>
+
+                <h2>High-Performance Technical Execution</h2>
+                <p>Site speed and technical performance directly impact your SEO rankings and conversion rates. We build fast, secure, and scalable websites.</p>
+                <ul>
+                    <li>Optimized Core Web Vitals</li>
+                    <li>CDN and caching implementation</li>
+                    <li>Image and asset optimization</li>
+                    <li>Security best practices and SSL</li>
+                    <li>Regular updates and maintenance</li>
+                </ul>
+            </div>
+
+            <div class="service-sidebar">
+                <div class="sidebar-card">
+                    <h3>Ready for a Better Website?</h3>
+                    <a href="contact.html" class="btn btn-primary">Get Website Audit</a>
+                    <a href="contact.html" class="btn btn-outline">Schedule a Call</a>
+                </div>
+
+                <div class="sidebar-card">
+                    <h3>Other Services</h3>
+                    <a href="service-seo.html">SEO Services</a><br>
+                    <a href="service-ppc.html">PPC Advertising</a><br>
+                    <a href="service-social-media.html">Social Media Marketing</a><br>
+                    <a href="service-content.html">Content Marketing</a><br>
+                    <a href="services.html">View All Services →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <h2>Is Your Website Converting?</h2>
+        <p>Get a free website audit and discover opportunities to increase conversions and revenue.</p>
+        <a href="contact.html" class="btn btn-primary">Request Free Audit</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>ClickBoost Media</h3>
+                <p>Your all-in-one partner for digital growth. More clicks. More customers.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <a href="service-seo.html">SEO Services</a>
+                <a href="service-ppc.html">PPC Management</a>
+                <a href="service-social-media.html">Social Media Marketing</a>
+                <a href="service-web-design.html">Web Design & Development</a>
+                <a href="service-content.html">Content Marketing</a>
+                <a href="service-email.html">Email Marketing</a>
+            </div>
+            <div class="footer-section">
+                <h3>Company</h3>
+                <a href="about.html">About Us</a>
+                <a href="services.html">All Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@clickboostmedia.com</p>
+                <p>Let's grow your business together!</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ClickBoost Media. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+
+        document.addEventListener('click', function(event) {
+            const navLinks = document.getElementById('navLinks');
+            if (!event.target.closest('.nav-container')) {
+                navLinks.classList.remove('active');
+            }
+        });
+
+        lucide.createIcons();
+    </script>
+</body>
+</html>

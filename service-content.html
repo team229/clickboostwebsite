@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI-powered content marketing that drives traffic, engagement, and conversions. Expert blog writing, video, and content strategy.">
+    <title>Content Marketing - Clickboost Media</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .service-detail {
+            padding: 6rem 2rem;
+            background: var(--white);
+        }
+
+        .service-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 4rem;
+        }
+
+        .service-main h2 {
+            margin-bottom: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .service-main h2:first-child {
+            margin-top: 0;
+        }
+
+        .service-main ul {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+
+        .service-main ul li {
+            padding: 0.75rem 0;
+            padding-left: 2rem;
+            position: relative;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        .service-main ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+            font-size: 1.25rem;
+        }
+
+        .service-sidebar {
+            position: sticky;
+            top: 100px;
+            height: fit-content;
+        }
+
+        .sidebar-card {
+            background: var(--light-gray);
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+
+        .sidebar-card h3 {
+            margin-bottom: 1.5rem;
+        }
+
+        .sidebar-card .btn {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .sidebar-card .btn:last-child {
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 968px) {
+            .service-content {
+                grid-template-columns: 1fr;
+            }
+
+            .service-sidebar {
+                position: static;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Click<span>Boost</span> Media</a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="btn btn-primary">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Content Marketing</h1>
+        <p>Human creativity + AI-powered content that educates, engages, and converts.</p>
+    </section>
+
+    <!-- Service Detail -->
+    <section class="service-detail">
+        <div class="service-content">
+            <div class="service-main">
+                <h2>Comprehensive Content Strategy</h2>
+                <p>Great content starts with strategy. We research your audience, map their journey, and create content that addresses their needs at every stage of the buying process.</p>
+                <ul>
+                    <li>Content audit and gap analysis</li>
+                    <li>Buyer persona development</li>
+                    <li>Topic research and ideation</li>
+                    <li>Content calendar planning</li>
+                    <li>Competitor content analysis</li>
+                </ul>
+
+                <h2>SEO-Optimized Blogs & Articles</h2>
+                <p>Our blog content combines human expertise with AI-powered optimization. Every article is researched, written, and optimized to rank well and provide genuine value to readers.</p>
+                <ul>
+                    <li>Keyword-optimized long-form articles</li>
+                    <li>Thought leadership pieces</li>
+                    <li>How-to guides and tutorials</li>
+                    <li>Industry news and insights</li>
+                    <li>Guest posting on authority sites</li>
+                </ul>
+
+                <h2>Video Content Production</h2>
+                <p>Video is the fastest-growing content format. We create engaging video content optimized for YouTube, social media, and your website.</p>
+                <ul>
+                    <li>Explainer and demo videos</li>
+                    <li>Video testimonials and case studies</li>
+                    <li>YouTube channel optimization</li>
+                    <li>Short-form content for social media</li>
+                    <li>Video transcription and repurposing</li>
+                </ul>
+
+                <h2>Infographics & Visual Content</h2>
+                <p>Complex ideas become memorable with visual storytelling. Our designers create share-worthy infographics and visual content that drive engagement and backlinks.</p>
+                <ul>
+                    <li>Data visualization and infographics</li>
+                    <li>Interactive content and tools</li>
+                    <li>Slide presentations and SlideShare</li>
+                    <li>Social media graphics</li>
+                    <li>Custom illustrations and diagrams</li>
+                </ul>
+
+                <h2>Full-Funnel Content Mapping</h2>
+                <p>Different content serves different purposes. We create content for every stage of your customer journey, from awareness to decision to retention.</p>
+                <ul>
+                    <li>Top-of-funnel awareness content</li>
+                    <li>Middle-of-funnel consideration content</li>
+                    <li>Bottom-of-funnel conversion content</li>
+                    <li>Post-purchase retention content</li>
+                    <li>Content upgrade and lead magnets</li>
+                </ul>
+
+                <h2>Performance Optimization</h2>
+                <p>We continuously analyze content performance and optimize based on data. What works gets amplified; what doesn't gets improved or replaced.</p>
+                <ul>
+                    <li>Traffic and engagement analytics</li>
+                    <li>Conversion tracking and attribution</li>
+                    <li>Content refresh and updating</li>
+                    <li>A/B testing of headlines and formats</li>
+                    <li>Monthly performance reporting</li>
+                </ul>
+            </div>
+
+            <div class="service-sidebar">
+                <div class="sidebar-card">
+                    <h3>Ready for Better Content?</h3>
+                    <a href="contact.html" class="btn btn-primary">Get Content Audit</a>
+                    <a href="contact.html" class="btn btn-outline">Schedule a Call</a>
+                </div>
+
+                <div class="sidebar-card">
+                    <h3>Other Services</h3>
+                    <a href="service-seo.html">SEO Services</a><br>
+                    <a href="service-ppc.html">PPC Advertising</a><br>
+                    <a href="service-social-media.html">Social Media Marketing</a><br>
+                    <a href="service-web-design.html">Web Design</a><br>
+                    <a href="services.html">View All Services →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <h2>Need Content That Converts?</h2>
+        <p>Get a free content audit and discover opportunities to attract, engage, and convert your ideal customers.</p>
+        <a href="contact.html" class="btn btn-primary">Request Free Audit</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>ClickBoost Media</h3>
+                <p>Your all-in-one partner for digital growth. More clicks. More customers.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <a href="service-seo.html">SEO Services</a>
+                <a href="service-ppc.html">PPC Management</a>
+                <a href="service-social-media.html">Social Media Marketing</a>
+                <a href="service-web-design.html">Web Design & Development</a>
+                <a href="service-content.html">Content Marketing</a>
+                <a href="service-email.html">Email Marketing</a>
+            </div>
+            <div class="footer-section">
+                <h3>Company</h3>
+                <a href="about.html">About Us</a>
+                <a href="services.html">All Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@clickboostmedia.com</p>
+                <p>Let's grow your business together!</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ClickBoost Media. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+
+        document.addEventListener('click', function(event) {
+            const navLinks = document.getElementById('navLinks');
+            if (!event.target.closest('.nav-container')) {
+                navLinks.classList.remove('active');
+            }
+        });
+
+        lucide.createIcons();
+    </script>
+</body>
+</html>

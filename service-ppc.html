@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI-powered PPC advertising that maximizes ROI. Expert Google Ads, Bing Ads, and paid social management.">
+    <title>PPC Advertising Services - Clickboost Media</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .service-detail {
+            padding: 6rem 2rem;
+            background: var(--white);
+        }
+
+        .service-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 4rem;
+        }
+
+        .service-main h2 {
+            margin-bottom: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .service-main h2:first-child {
+            margin-top: 0;
+        }
+
+        .service-main ul {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+
+        .service-main ul li {
+            padding: 0.75rem 0;
+            padding-left: 2rem;
+            position: relative;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        .service-main ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+            font-size: 1.25rem;
+        }
+
+        .service-sidebar {
+            position: sticky;
+            top: 100px;
+            height: fit-content;
+        }
+
+        .sidebar-card {
+            background: var(--light-gray);
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+
+        .sidebar-card h3 {
+            margin-bottom: 1.5rem;
+        }
+
+        .sidebar-card .btn {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .sidebar-card .btn:last-child {
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 968px) {
+            .service-content {
+                grid-template-columns: 1fr;
+            }
+
+            .service-sidebar {
+                position: static;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Click<span>Boost</span> Media</a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="btn btn-primary">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Pay-Per-Click (PPC) Advertising</h1>
+        <p>AI-powered PPC campaigns that deliver immediate visibility and maximum ROI.</p>
+    </section>
+
+    <!-- Service Detail -->
+    <section class="service-detail">
+        <div class="service-content">
+            <div class="service-main">
+                <h2>Google & Bing Ads That Convert</h2>
+                <p>Appear at the top of search results when your customers are actively looking for your products or services. Our AI-optimized campaigns ensure you're getting qualified clicks at the best possible cost.</p>
+                <ul>
+                    <li>Search campaign setup and optimization</li>
+                    <li>Shopping campaigns for e-commerce</li>
+                    <li>Display advertising for brand awareness</li>
+                    <li>Video advertising on YouTube</li>
+                    <li>Performance Max campaigns</li>
+                </ul>
+
+                <h2>Paid Social That Engages</h2>
+                <p>Reach your ideal customers where they spend their time. Our paid social strategies combine precise targeting with compelling creatives to drive engagement and conversions.</p>
+                <ul>
+                    <li>Facebook & Instagram advertising</li>
+                    <li>LinkedIn B2B campaigns</li>
+                    <li>TikTok advertising for younger audiences</li>
+                    <li>Twitter/X promotional campaigns</li>
+                    <li>Pinterest shopping ads</li>
+                </ul>
+
+                <h2>Retargeting That Brings Them Back</h2>
+                <p>Most visitors don't convert on their first visit. Our retargeting campaigns keep your brand top-of-mind and bring potential customers back to complete their purchase.</p>
+                <ul>
+                    <li>Website visitor retargeting</li>
+                    <li>Abandoned cart recovery</li>
+                    <li>Dynamic product retargeting</li>
+                    <li>Cross-platform audience syncing</li>
+                    <li>Sequential messaging campaigns</li>
+                </ul>
+
+                <h2>ROI-Obsessed Budget Management</h2>
+                <p>Every dollar of your ad spend is monitored and optimized. We use AI-powered bidding strategies and continuous A/B testing to maximize your return on investment.</p>
+                <ul>
+                    <li>AI-powered bid optimization</li>
+                    <li>Conversion tracking and attribution</li>
+                    <li>Budget allocation across channels</li>
+                    <li>Quality Score improvement</li>
+                    <li>Cost-per-acquisition (CPA) reduction</li>
+                </ul>
+
+                <h2>Real-Time Campaign Optimization</h2>
+                <p>Our AI analytics monitor your campaigns 24/7, making real-time adjustments to improve performance and capitalize on opportunities.</p>
+                <ul>
+                    <li>Continuous ad copy testing</li>
+                    <li>Landing page optimization</li>
+                    <li>Audience refinement</li>
+                    <li>Negative keyword management</li>
+                    <li>Competitive bid adjustments</li>
+                </ul>
+            </div>
+
+            <div class="service-sidebar">
+                <div class="sidebar-card">
+                    <h3>Ready to Generate Leads?</h3>
+                    <a href="contact.html" class="btn btn-primary">Get Free PPC Audit</a>
+                    <a href="contact.html" class="btn btn-outline">Schedule a Call</a>
+                </div>
+
+                <div class="sidebar-card">
+                    <h3>Other Services</h3>
+                    <a href="service-seo.html">SEO Services</a><br>
+                    <a href="service-social-media.html">Social Media Marketing</a><br>
+                    <a href="service-content.html">Content Marketing</a><br>
+                    <a href="service-web-design.html">Web Design</a><br>
+                    <a href="services.html">View All Services →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <h2>Stop Wasting Ad Spend</h2>
+        <p>Get a free PPC audit and discover how to reduce costs while increasing conversions.</p>
+        <a href="contact.html" class="btn btn-primary">Request Free Audit</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>ClickBoost Media</h3>
+                <p>Your all-in-one partner for digital growth. More clicks. More customers.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <a href="service-seo.html">SEO Services</a>
+                <a href="service-ppc.html">PPC Management</a>
+                <a href="service-social-media.html">Social Media Marketing</a>
+                <a href="service-web-design.html">Web Design & Development</a>
+                <a href="service-content.html">Content Marketing</a>
+                <a href="service-email.html">Email Marketing</a>
+            </div>
+            <div class="footer-section">
+                <h3>Company</h3>
+                <a href="about.html">About Us</a>
+                <a href="services.html">All Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@clickboostmedia.com</p>
+                <p>Let's grow your business together!</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ClickBoost Media. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+
+        document.addEventListener('click', function(event) {
+            const navLinks = document.getElementById('navLinks');
+            if (!event.target.closest('.nav-container')) {
+                navLinks.classList.remove('active');
+            }
+        });
+
+        lucide.createIcons();
+    </script>
+</body>
+</html>

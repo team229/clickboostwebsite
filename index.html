@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ClickBoost Media - AI-powered digital marketing solutions. More clicks, more customers.">
+    <title>ClickBoost Media - More Clicks. More Customers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4A6572',
+                        accent: '#1A8ACA',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans antialiased text-gray-700 bg-white">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="text-2xl font-bold text-gray-900">
+                    Click<span class="text-accent">Boost</span>Media
+                </a>
+
+                <!-- Mobile menu button -->
+                <button onclick="toggleMenu()" class="md:hidden p-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+
+                <!-- Desktop menu -->
+                <ul class="hidden md:flex items-center gap-8">
+                    <li><a href="index.html" class="text-sm font-medium text-gray-900 hover:text-accent transition-colors">Home</a></li>
+                    <li><a href="about.html" class="text-sm font-medium text-gray-600 hover:text-accent transition-colors">About</a></li>
+                    <li><a href="services.html" class="text-sm font-medium text-gray-600 hover:text-accent transition-colors">Services</a></li>
+                    <li><a href="contact.html" class="text-sm font-medium text-gray-600 hover:text-accent transition-colors">Contact</a></li>
+                    <li><a href="contact.html" class="px-6 py-2.5 bg-accent text-white text-sm font-semibold rounded-lg hover:bg-accent/90 transition-all hover:shadow-lg hover:shadow-accent/20">Get Started</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Mobile menu -->
+        <div id="mobileMenu" class="hidden md:hidden border-t border-gray-100">
+            <div class="px-4 py-4 space-y-3">
+                <a href="index.html" class="block text-sm font-medium text-gray-900 hover:text-accent transition-colors py-2">Home</a>
+                <a href="about.html" class="block text-sm font-medium text-gray-600 hover:text-accent transition-colors py-2">About</a>
+                <a href="services.html" class="block text-sm font-medium text-gray-600 hover:text-accent transition-colors py-2">Services</a>
+                <a href="contact.html" class="block text-sm font-medium text-gray-600 hover:text-accent transition-colors py-2">Contact</a>
+                <a href="contact.html" class="block text-center px-6 py-2.5 bg-accent text-white text-sm font-semibold rounded-lg hover:bg-accent/90 transition-all mt-4">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="max-w-3xl mx-auto text-center">
+                <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 tracking-tight mb-6">
+                    More Clicks.<br class="sm:hidden"> More Customers.
+                </h1>
+                <p class="text-lg sm:text-xl text-gray-600 mb-10 leading-relaxed">
+                    AI-powered digital marketing solutions designed to drive measurable growth. We combine cutting-edge technology with proven strategies to maximize your ROI.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="contact.html" class="px-8 py-4 bg-accent text-white font-semibold rounded-lg hover:bg-accent/90 transition-all hover:shadow-xl hover:shadow-accent/20 hover:-translate-y-0.5">
+                        Start Free Consultation
+                    </a>
+                    <a href="services.html" class="px-8 py-4 bg-white border-2 border-gray-900 text-gray-900 font-semibold rounded-lg hover:bg-gray-900 hover:text-white transition-all">
+                        View Services
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-24 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="max-w-2xl mx-auto text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">Our Services</h2>
+                <p class="text-lg text-gray-600">Comprehensive digital marketing solutions tailored to your business goals</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- SEO Card -->
+                <a href="service-seo.html" class="group p-8 bg-white border border-gray-100 rounded-2xl hover:border-accent hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
+                        <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">SEO</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">AI-driven keyword research and technical optimization for faster rankings.</p>
+                    <span class="text-accent font-semibold inline-flex items-center gap-2 group-hover:gap-3 transition-all">
+                        Learn more
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </span>
+                </a>
+
+                <!-- Local SEO Card -->
+                <a href="service-local-seo.html" class="group p-8 bg-white border border-gray-100 rounded-2xl hover:border-accent hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
+                        <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Local SEO</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">Dominate local search results with Google My Business optimization.</p>
+                    <span class="text-accent font-semibold inline-flex items-center gap-2 group-hover:gap-3 transition-all">
+                        Learn more
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </span>
+                </a>
+
+                <!-- PPC Card -->
+                <a href="service-ppc.html" class="group p-8 bg-white border border-gray-100 rounded-2xl hover:border-accent hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
+                        <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">PPC Advertising</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">AI-powered bidding and targeting for maximum ROI on every campaign.</p>
+                    <span class="text-accent font-semibold inline-flex items-center gap-2 group-hover:gap-3 transition-all">
+                        Learn more
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </span>
+                </a>
+
+                <!-- Social Media Card -->
+                <a href="service-social-media.html" class="group p-8 bg-white border border-gray-100 rounded-2xl hover:border-accent hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
+                        <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Social Media</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">Build engaged communities with data-driven social media strategies.</p>
+                    <span class="text-accent font-semibold inline-flex items-center gap-2 group-hover:gap-3 transition-all">
+                        Learn more
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </span>
+                </a>
+
+                <!-- Content Marketing Card -->
+                <a href="service-content.html" class="group p-8 bg-white border border-gray-100 rounded-2xl hover:border-accent hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
+                        <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Content Marketing</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">SEO-optimized content that drives traffic and converts visitors.</p>
+                    <span class="text-accent font-semibold inline-flex items-center gap-2 group-hover:gap-3 transition-all">
+                        Learn more
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </span>
+                </a>
+
+                <!-- Web Design Card -->
+                <a href="service-web-design.html" class="group p-8 bg-white border border-gray-100 rounded-2xl hover:border-accent hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-accent/20 transition-colors">
+                        <svg class="w-6 h-6 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Web Design</h3>
+                    <p class="text-gray-600 mb-4 leading-relaxed">Conversion-focused websites with AI-powered UX optimization.</p>
+                    <span class="text-accent font-semibold inline-flex items-center gap-2 group-hover:gap-3 transition-all">
+                        Learn more
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-24 px-4 sm:px-6 lg:px-8 bg-gray-900">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+                <div class="text-center">
+                    <h3 class="text-5xl sm:text-6xl font-bold text-accent mb-2">500+</h3>
+                    <p class="text-gray-300 text-sm sm:text-base">Clients Served</p>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-5xl sm:text-6xl font-bold text-accent mb-2">250%</h3>
+                    <p class="text-gray-300 text-sm sm:text-base">Average ROI Increase</p>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-5xl sm:text-6xl font-bold text-accent mb-2">10M+</h3>
+                    <p class="text-gray-300 text-sm sm:text-base">Leads Generated</p>
+                </div>
+                <div class="text-center">
+                    <h3 class="text-5xl sm:text-6xl font-bold text-accent mb-2">98%</h3>
+                    <p class="text-gray-300 text-sm sm:text-base">Client Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-24 px-4 sm:px-6 lg:px-8 bg-primary text-center">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-4xl sm:text-5xl font-bold text-white mb-6">Ready to Grow Your Business?</h2>
+            <p class="text-lg sm:text-xl text-white/90 mb-10 leading-relaxed">
+                Schedule a free strategy call and discover how we can help you achieve predictable, scalable growth.
+            </p>
+            <a href="contact.html" class="inline-block px-8 py-4 bg-white text-accent font-semibold rounded-lg hover:bg-gray-50 transition-all hover:shadow-xl hover:-translate-y-0.5">
+                Get Free Consultation
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 mb-12">
+                <div>
+                    <h4 class="text-xl font-bold mb-4">ClickBoost Media</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed">Your partner for digital growth.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Services</h4>
+                    <div class="space-y-2.5">
+                        <a href="service-seo.html" class="block text-gray-400 hover:text-accent transition-colors text-sm">SEO</a>
+                        <a href="service-local-seo.html" class="block text-gray-400 hover:text-accent transition-colors text-sm">Local SEO</a>
+                        <a href="service-ppc.html" class="block text-gray-400 hover:text-accent transition-colors text-sm">PPC Advertising</a>
+                        <a href="service-social-media.html" class="block text-gray-400 hover:text-accent transition-colors text-sm">Social Media</a>
+                        <a href="service-content.html" class="block text-gray-400 hover:text-accent transition-colors text-sm">Content Marketing</a>
+                        <a href="service-web-design.html" class="block text-gray-400 hover:text-accent transition-colors text-sm">Web Design</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Company</h4>
+                    <div class="space-y-2.5">
+                        <a href="about.html" class="block text-gray-400 hover:text-accent transition-colors text-sm">About Us</a>
+                        <a href="services.html" class="block text-gray-400 hover:text-accent transition-colors text-sm">Services</a>
+                        <a href="contact.html" class="block text-gray-400 hover:text-accent transition-colors text-sm">Contact</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <p class="text-gray-400 text-sm">Email: info@clickboostmedia.com</p>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-gray-800 text-center">
+                <p class="text-gray-500 text-sm">&copy; 2025 ClickBoost Media. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('mobileMenu').classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>

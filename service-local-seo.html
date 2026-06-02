@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI-powered local SEO that dominates local search and Google Maps. Expert GMB optimization, review management, and local citations.">
+    <title>Local SEO & GMB Optimization - Clickboost Media</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        .service-detail {
+            padding: 6rem 2rem;
+            background: var(--white);
+        }
+
+        .service-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 4rem;
+        }
+
+        .service-main h2 {
+            margin-bottom: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .service-main h2:first-child {
+            margin-top: 0;
+        }
+
+        .service-main ul {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
+
+        .service-main ul li {
+            padding: 0.75rem 0;
+            padding-left: 2rem;
+            position: relative;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        .service-main ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+            font-size: 1.25rem;
+        }
+
+        .service-sidebar {
+            position: sticky;
+            top: 100px;
+            height: fit-content;
+        }
+
+        .sidebar-card {
+            background: var(--light-gray);
+            padding: 2rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+        }
+
+        .sidebar-card h3 {
+            margin-bottom: 1.5rem;
+        }
+
+        .sidebar-card .btn {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .sidebar-card .btn:last-child {
+            margin-bottom: 0;
+        }
+
+        @media (max-width: 968px) {
+            .service-content {
+                grid-template-columns: 1fr;
+            }
+
+            .service-sidebar {
+                position: static;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Click<span>Boost</span> Media</a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="btn btn-primary">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Local SEO & GMB Optimization</h1>
+        <p>Dominate local search and appear at the top when customers are looking for businesses like yours.</p>
+    </section>
+
+    <!-- Service Detail -->
+    <section class="service-detail">
+        <div class="service-content">
+            <div class="service-main">
+                <h2>Google Business Profile (GMB) Optimization</h2>
+                <p>Your Google Business Profile is your most powerful local marketing tool. We optimize every element to maximize visibility in local search and Google Maps.</p>
+                <ul>
+                    <li>Complete profile setup and verification</li>
+                    <li>Category and attribute optimization</li>
+                    <li>Business description and keyword integration</li>
+                    <li>Photo and video optimization</li>
+                    <li>Google Posts and updates</li>
+                    <li>Service area and hours management</li>
+                </ul>
+
+                <h2>Maps Ranking Optimization</h2>
+                <p>Appearing in the Google Maps "3-pack" drives massive traffic and phone calls. Our AI analyzes ranking factors to get you into those coveted top positions.</p>
+                <ul>
+                    <li>NAP (Name, Address, Phone) consistency</li>
+                    <li>Proximity and relevance optimization</li>
+                    <li>Category and keyword strategy</li>
+                    <li>Geo-targeted content creation</li>
+                    <li>Local backlink building</li>
+                </ul>
+
+                <h2>Intelligent Review Management</h2>
+                <p>Reviews are critical for local rankings and customer trust. Our AI monitors reviews across platforms and helps you build a strong reputation.</p>
+                <ul>
+                    <li>Review monitoring and alerts</li>
+                    <li>Review response management</li>
+                    <li>Review generation campaigns</li>
+                    <li>Negative review mitigation</li>
+                    <li>Multi-platform review tracking</li>
+                </ul>
+
+                <h2>Local Citations & Listings</h2>
+                <p>Consistent business information across the web signals trust to search engines. We build and manage citations on high-authority directories.</p>
+                <ul>
+                    <li>Citation audit and cleanup</li>
+                    <li>Top directory submissions</li>
+                    <li>Industry-specific listings</li>
+                    <li>Citation monitoring and updates</li>
+                    <li>Duplicate listing removal</li>
+                </ul>
+
+                <h2>AI Analysis of Competitor Trends</h2>
+                <p>Stay ahead of local competitors with AI-powered competitive intelligence. We analyze what's working for them and identify opportunities for you.</p>
+                <ul>
+                    <li>Competitor ranking analysis</li>
+                    <li>Review sentiment comparison</li>
+                    <li>Content gap identification</li>
+                    <li>Local keyword opportunities</li>
+                    <li>Market share tracking</li>
+                </ul>
+
+                <h2>Local Content Strategy</h2>
+                <p>Local-focused content helps you rank for geo-targeted keywords and establishes you as a community authority.</p>
+                <ul>
+                    <li>Location-specific landing pages</li>
+                    <li>Local blog content</li>
+                    <li>Community event coverage</li>
+                    <li>Local schema markup</li>
+                    <li>Neighborhood and area pages</li>
+                </ul>
+            </div>
+
+            <div class="service-sidebar">
+                <div class="sidebar-card">
+                    <h3>Ready to Dominate Local Search?</h3>
+                    <a href="contact.html" class="btn btn-primary">Get Local SEO Audit</a>
+                    <a href="contact.html" class="btn btn-outline">Schedule a Call</a>
+                </div>
+
+                <div class="sidebar-card">
+                    <h3>Other Services</h3>
+                    <a href="service-seo.html">SEO Services</a><br>
+                    <a href="service-ppc.html">PPC Advertising</a><br>
+                    <a href="service-social-media.html">Social Media Marketing</a><br>
+                    <a href="service-web-design.html">Web Design</a><br>
+                    <a href="services.html">View All Services →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <h2>Show Up When Locals Are Searching</h2>
+        <p>Get a free local SEO audit and discover how to rank higher in local search results.</p>
+        <a href="contact.html" class="btn btn-primary">Request Free Audit</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>ClickBoost Media</h3>
+                <p>Your all-in-one partner for digital growth. More clicks. More customers.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <a href="service-seo.html">SEO Services</a>
+                <a href="service-ppc.html">PPC Management</a>
+                <a href="service-social-media.html">Social Media Marketing</a>
+                <a href="service-web-design.html">Web Design & Development</a>
+                <a href="service-content.html">Content Marketing</a>
+                <a href="service-email.html">Email Marketing</a>
+            </div>
+            <div class="footer-section">
+                <h3>Company</h3>
+                <a href="about.html">About Us</a>
+                <a href="services.html">All Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@clickboostmedia.com</p>
+                <p>Let's grow your business together!</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ClickBoost Media. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+
+        document.addEventListener('click', function(event) {
+            const navLinks = document.getElementById('navLinks');
+            if (!event.target.closest('.nav-container')) {
+                navLinks.classList.remove('active');
+            }
+        });
+
+        lucide.createIcons();
+    </script>
+</body>
+</html>
