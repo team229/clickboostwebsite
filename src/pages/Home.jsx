@@ -50,6 +50,9 @@ export default function Home() {
             <ServiceCard to="/service-web-design" title="Web Design" desc="Conversion-focused websites with AI-powered UX optimization." svg={
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
             } />
+            <ServiceCard to="/contact" title="AI Agent Set-Up" desc="Custom AI agents configured to automate workflows, qualify leads, and support customers." svg={
+              <><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4V2m0 2a6 6 0 016 6v4a6 6 0 01-12 0v-4a6 6 0 016-6z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M16 12h.01M9 17h6M4 13H2m22 0h-2" /></>
+            } />
           </div>
         </div>
       </section>
