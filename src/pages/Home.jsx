@@ -7,7 +7,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900 tracking-tight mb-6">
-              More Clicks.<br className="sm:hidden" /> More Customers.
+              More Clicks.<br className="sm:hidden" /> More Customers. v3
             </h1>
             <p className="text-lg sm:text-xl text-gray-600 mb-10 leading-relaxed">
               AI-powered digital marketing solutions designed to drive measurable growth. We combine cutting-edge technology with proven strategies to maximize your ROI.
