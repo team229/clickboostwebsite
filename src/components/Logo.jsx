@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const logoSrc = "/click-to-boost-logo.svg";
+const logoSrc = "https://i.ibb.co/pFHtTMF/Chat-GPT-Image-Jun-3-2026-01-52-29-AM.png";
 
 export default function Logo({ className = "", imageClassName = "h-12 w-auto", framed = false }) {
   const frameClasses = framed
@@ -9,7 +9,7 @@ export default function Logo({ className = "", imageClassName = "h-12 w-auto", f
 
   return (
     <Link to="/" className={`${frameClasses} ${className}`.trim()} aria-label="Click To Boost home">
-      <img src={logoSrc} alt="Click To Boost" className={imageClassName} />
+      <img src={logoSrc} alt="Click To Boost" className={`${imageClassName} object-contain`.trim()} />
     </Link>
   );
 }
