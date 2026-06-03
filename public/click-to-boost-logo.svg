@@ -2,34 +2,34 @@
   <title id="title">Click To Boost logo</title>
   <desc id="desc">A rising teal arrow over a bar chart and cursor icon next to the words Click To Boost.</desc>
   <defs>
-    <linearGradient id="arrowGradient" x1="67" y1="140" x2="223" y2="18" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#1A8ACA"/>
-      <stop offset="1" stop-color="#39C98B"/>
+    <linearGradient id="navyGradient" x1="260" y1="30" x2="560" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B2A4A"/>
+      <stop offset="1" stop-color="#123B63"/>
     </linearGradient>
-    <linearGradient id="boostGradient" x1="262" y1="134" x2="569" y2="134" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#1A8ACA"/>
-      <stop offset="1" stop-color="#32C38A"/>
+    <linearGradient id="tealGradient" x1="64" y1="150" x2="575" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1FAE9C"/>
+      <stop offset="0.55" stop-color="#2EC4B6"/>
+      <stop offset="1" stop-color="#3ED1C0"/>
+    </linearGradient>
+    <linearGradient id="blueTealGradient" x1="74" y1="205" x2="184" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1C6E8C"/>
+      <stop offset="1" stop-color="#2A8FA3"/>
     </linearGradient>
   </defs>
-
-  <g fill="none" stroke-linecap="square" stroke-linejoin="miter">
-    <path d="M46 130 L94 111 L124 76 L151 90 L196 30" stroke="url(#arrowGradient)" stroke-width="19"/>
-    <path d="M190 27 L234 20 L220 63 Z" fill="#35C88C" stroke="#35C88C" stroke-width="2"/>
+  <rect width="620" height="240" rx="28" fill="#FFFFFF"/>
+  <g fill="url(#blueTealGradient)">
+    <rect x="72" y="145" width="26" height="62" rx="4"/>
+    <rect x="116" y="119" width="26" height="88" rx="4"/>
+    <rect x="160" y="92" width="26" height="115" rx="4"/>
   </g>
-
-  <g fill="#0F5F74">
-    <rect x="74" y="141" width="24" height="64" rx="2"/>
-    <rect x="116" y="116" width="24" height="89" rx="2"/>
-    <rect x="158" y="91" width="24" height="114" rx="2"/>
-  </g>
-
+  <path d="M46 131 L94 112 L124 77 L151 91 L197 31" fill="none" stroke="url(#tealGradient)" stroke-width="18" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M190 27 L235 20 L220 64 Z" fill="#3ED1C0"/>
   <g transform="translate(54 136)">
-    <path d="M0 0 L72 43 L45 53 L59 88 L37 97 L23 61 L3 82 Z" fill="#FFFFFF" stroke="#0F5F74" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M0 0 L72 43 L45 53 L59 88 L37 97 L23 61 L3 82 Z" fill="#FFFFFF" stroke="#0B2A4A" stroke-width="12" stroke-linejoin="round"/>
     <path d="M0 0 L72 43 L45 53 L59 88 L37 97 L23 61 L3 82 Z" fill="#FFFFFF"/>
   </g>
-
-  <g font-family="Inter, Montserrat, Arial, sans-serif" font-weight="800" letter-spacing="2">
-    <text x="263" y="91" fill="#203342" font-size="54">CLICK TO</text>
-    <text x="263" y="171" fill="url(#boostGradient)" font-size="78">BOOST</text>
+  <g font-family="Inter, Montserrat, Arial, sans-serif" font-weight="900" letter-spacing="2">
+    <text x="263" y="91" fill="url(#navyGradient)" font-size="54">CLICK TO</text>
+    <text x="263" y="171" fill="url(#tealGradient)" font-size="78">BOOST</text>
   </g>
 </svg>
