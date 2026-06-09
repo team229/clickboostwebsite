@@ -17,7 +17,7 @@ export default function About() {
           </div>
           <div className="space-y-6 text-lg leading-relaxed text-gray-600">
             <p>Our story didn't begin in a boardroom; it began with a conviction. A conviction that in the digital age, every business deserves a fighting chance to thrive. We were a small team, yes, but we were fueled by a big vision: to demystify digital marketing.</p>
-            <p>To us, <strong className="text-gray-900">&quot;More Clicks. More Customers&quot;</strong> isn't just a tagline—it's a promise. A promise to empower the local bakery, the tech startup, the family-run store with the same powerful strategies as the giants.</p>
+            <p>To us, <strong className="text-gray-900">&quot;More Clicks. More Customers&quot;</strong> isn't just a tagline-it's a promise. A promise to empower the local bakery, the tech startup, the family-run store with the same powerful strategies as the giants.</p>
             <p>We are here to be the catalyst for your growth, turning your ambition into your achievement.</p>
           </div>
         </div>
@@ -44,7 +44,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <ValueCard icon="search" title="Transparency" desc="Clear communication, honest reporting, and no hidden agendas" />
             <ValueCard icon="lightbulb" title="Innovation" desc="Embracing cutting-edge technology and creative solutions" />
-            <ValueCard icon="heart" title="Customer-First" desc="Your success is our success—we're invested in your growth" />
+            <ValueCard icon="heart" title="Customer-First" desc="Your success is our success-we're invested in your growth" />
             <ValueCard icon="book" title="Continuous Learning" desc="Staying ahead of trends and evolving with the industry" />
             <ValueCard icon="shield" title="Integrity" desc="Doing what's right, even when no one is watching" />
           </div>

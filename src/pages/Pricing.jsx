@@ -19,11 +19,11 @@ const servicePlans = {
       ["AI Visibility Activities", [["AI Semantic Entity Optimization", "Basic", "Enhanced", "Advanced", "Premium"], ["Schema Repair", "✓", "✓", "✓", "✓"], ["AEO", "✗", "✗", "✓", "✓"], ["Voice Search Optimization", "✗", "✗", "Basic", "Advanced"], ["AI-Optimized Blog Posts", "1/month", "2/month", "4/month", "6/month"], ["Featured Snippet Testing", "✗", "✗", "✓", "✓"], ["AI Ranking Reports", "Monthly", "Monthly", "Monthly + Insights", "Monthly + Strategy"]]],
       ["On-Page Optimization", [["Title/Meta/Heading Tag Optimization", "✓", "✓", "✓", "✓"], ["Content Optimization", "Basic", "Standard", "Advanced", "Advanced"], ["XML Sitemap", "✓", "✓", "✓", "✓"], ["Robots.txt", "✓", "✓", "✓", "✓"], ["Google Analytics Setup", "✓", "✓", "✓", "✓"], ["Structured Data", "✗", "Basic", "Advanced", "Advanced + Monitoring"]]],
       ["Off-Page Optimization", [["Blog Writing", "1/month", "2/month", "4/month", "6/month"], ["Article Submissions", "1/month", "2/month", "4/month", "6/month"], ["Social Bookmarking", "15 links", "25 links", "40 links", "60 links"], ["Infographics", "✗", "✗", "1/month", "2/month"], ["Press Releases", "✗", "Client-provided", "1/quarter", "1/month"], ["Local Business Listings", "1/month", "3/month", "6/month", "10/month"], ["NAP Syndication", "Basic", "Standard", "Advanced", "Premium"]]],
-      ["SMO Activities — Facebook", [["Facebook Profile Creation", "✗", "✓", "✓", "✓"], ["Facebook Posting Frequency", "✗", "4/month", "8/month", "12/month"]]],
-      ["SMO Activities — Instagram", [["Instagram Profile Creation", "✗", "✓", "✓", "✓"], ["Instagram Posting Frequency", "✗", "4/month", "8/month", "12/month"]]],
-      ["SMO Activities — Twitter/X", [["Twitter/X Profile Creation", "✗", "✗", "✓", "✓"], ["Twitter/X Posting Frequency", "✗", "✗", "8/month", "12/month"]]],
-      ["SMO Activities — Pinterest", [["Pinterest Account Setup", "✗", "✗", "✓", "✓"], ["Pinterest Posting Frequency", "✗", "✗", "4/month", "8/month"]]],
-      ["SMO Activities — LinkedIn", [["LinkedIn Profile Creation", "✗", "✗", "✓", "✓"], ["LinkedIn Posting Frequency", "✗", "✗", "4/month", "8/month"]]],
+      ["SMO Activities - Facebook", [["Facebook Profile Creation", "✗", "✓", "✓", "✓"], ["Facebook Posting Frequency", "✗", "4/month", "8/month", "12/month"]]],
+      ["SMO Activities - Instagram", [["Instagram Profile Creation", "✗", "✓", "✓", "✓"], ["Instagram Posting Frequency", "✗", "4/month", "8/month", "12/month"]]],
+      ["SMO Activities - Twitter/X", [["Twitter/X Profile Creation", "✗", "✗", "✓", "✓"], ["Twitter/X Posting Frequency", "✗", "✗", "8/month", "12/month"]]],
+      ["SMO Activities - Pinterest", [["Pinterest Account Setup", "✗", "✗", "✓", "✓"], ["Pinterest Posting Frequency", "✗", "✗", "4/month", "8/month"]]],
+      ["SMO Activities - LinkedIn", [["LinkedIn Profile Creation", "✗", "✗", "✓", "✓"], ["LinkedIn Posting Frequency", "✗", "✗", "4/month", "8/month"]]],
       ["Reports", [["Monthly Analytics", "✓", "✓", "✓", "✓"], ["Keyword Ranking", "✓", "✓", "✓", "✓"], ["Off-Page Submission", "✓", "✓", "✓", "✓"]]],
       ["Customer Support", [["Email", "✓", "✓", "✓", "✓"], ["Phone", "✓", "✓", "✓", "✓"], ["Chat", "✓", "✓", "✓", "✓"]]],
     ],
@@ -162,7 +162,7 @@ export default function Pricing() {
   const [openSections, setOpenSections] = useState(() => Object.fromEntries(normalize(servicePlans.seo.sections).map(section => [section.title, true])));
   const sectionState = useMemo(() => Object.fromEntries(activeSections.map(section => [section.title, openSections[section.title] ?? true])), [activeSections, openSections]);
 
-  useEffect(() => { document.title = "Pricing Plans | ClickBoost Media – Digital Marketing Agency"; }, []);
+  useEffect(() => { document.title = "Pricing Plans | ClickBoost Media - Digital Marketing Agency"; }, []);
 
   const switchService = (serviceKey) => {
     setActiveService(serviceKey);
