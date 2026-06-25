@@ -1,0 +1,477 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e5]:
+      - link "Quikr AI" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "Quikr AI" [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e11]:
+          - link "Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - button "Services" [ref=e14] [cursor=pointer]:
+            - text: Services
+            - img [ref=e15]
+          - button "Locations" [ref=e18] [cursor=pointer]:
+            - text: Locations
+            - img [ref=e19]
+          - link "Case Studies" [ref=e21] [cursor=pointer]:
+            - /url: /case-studies/
+          - link "About Us" [ref=e22] [cursor=pointer]:
+            - /url: /about-us/
+          - link "Resources" [ref=e23] [cursor=pointer]:
+            - /url: /blogs/
+          - link "Contact Us" [ref=e24] [cursor=pointer]:
+            - /url: /contact-us/
+        - generic [ref=e25]:
+          - button "Audit With AI" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: Audit With AI
+            - img [ref=e28]
+          - link "Book Strategy Call" [ref=e30] [cursor=pointer]:
+            - /url: https://calendly.com/quikrai/
+            - button "Book Strategy Call" [ref=e31]
+  - main [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e37]:
+        - img "Quikr Logo" [ref=e39]
+        - generic [ref=e40]:
+          - img "Inc Logo" [ref=e42]
+          - generic [ref=e43]:
+            - heading "America's Fastest-Growing Marketing Company" [level=1] [ref=e44]
+            - paragraph [ref=e45]: Leveraging AI to deliver faster growth & smarter ROI.
+            - generic [ref=e46]:
+              - link "Google Partner Google Partner" [ref=e47] [cursor=pointer]:
+                - /url: https://www.google.com/partners/agency?id=2325115535
+                - generic [ref=e48]:
+                  - img "Google Partner" [ref=e49]
+                  - img "Google Partner" [ref=e50]
+              - img "Meta Partner" [ref=e51]
+        - link "Get Started" [ref=e53] [cursor=pointer]:
+          - /url: /contact-us/
+          - button "Get Started" [ref=e54]
+      - generic [ref=e55]:
+        - heading "Google Moves To AI Mode" [level=2] [ref=e58]
+        - heading "THAT'S WHAT We Did For Our Clients" [level=2] [ref=e62]
+      - generic [ref=e66]:
+        - heading "Smart Brands Trust Quikr AI" [level=2] [ref=e68]
+        - generic [ref=e70]:
+          - img "Logo 0" [ref=e72]
+          - img "Logo 1" [ref=e74]
+          - img "Logo 2" [ref=e76]
+          - img "Logo 3" [ref=e78]
+          - img "Logo 4" [ref=e80]
+          - img "Logo 5" [ref=e82]
+          - img "Logo 6" [ref=e84]
+          - img "Logo 7" [ref=e86]
+          - img "Logo 8" [ref=e88]
+          - img "Logo 9" [ref=e90]
+          - img "Logo 10" [ref=e92]
+          - img "Logo 11" [ref=e94]
+          - img "Logo 12" [ref=e96]
+          - img "Logo 13" [ref=e98]
+          - img "Logo 14" [ref=e100]
+          - img "Logo 15" [ref=e102]
+          - img "Logo 16" [ref=e104]
+          - img "Logo 17" [ref=e106]
+          - img "Logo 18" [ref=e108]
+          - img "Logo 19" [ref=e110]
+          - img "Logo 20" [ref=e112]
+          - img "Logo 21" [ref=e114]
+          - img "Logo 22" [ref=e116]
+          - img "Logo 23" [ref=e118]
+          - img "Logo 24" [ref=e120]
+          - img "Logo 25" [ref=e122]
+          - img "Logo 26" [ref=e124]
+          - img "Logo 27" [ref=e126]
+          - img "Logo 28" [ref=e128]
+          - img "Logo 29" [ref=e130]
+          - img "Logo 30" [ref=e132]
+          - img "Logo 31" [ref=e134]
+          - img "Logo 32" [ref=e136]
+      - generic [ref=e137]:
+        - heading "Clients who achieved success by implementing the right marketing strategies with QUIKR AI" [level=2] [ref=e139]
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - button [ref=e145] [cursor=pointer]:
+              - img [ref=e146]
+            - button [ref=e147] [cursor=pointer]:
+              - img [ref=e148]
+            - button [ref=e149] [cursor=pointer]:
+              - img [ref=e150]
+          - generic [ref=e151]:
+            - button [ref=e152] [cursor=pointer]:
+              - img [ref=e153]
+            - generic [ref=e155]:
+              - generic [ref=e156]:
+                - generic [ref=e158]: 👤
+                - generic [ref=e159]:
+                  - img [ref=e160]
+                  - img [ref=e162]
+                  - img [ref=e164]
+                  - img [ref=e166]
+                  - img [ref=e168]
+                - heading "Te Amaz" [level=3] [ref=e170]
+                - paragraph [ref=e172]: Their business planning guidance is the best we've experienced so far
+              - generic [ref=e173]:
+                - generic [ref=e175]: 👤
+                - generic [ref=e176]:
+                  - img [ref=e177]
+                  - img [ref=e179]
+                  - img [ref=e181]
+                  - img [ref=e183]
+                  - img [ref=e185]
+                - heading "Alicia Nottingham" [level=3] [ref=e187]
+                - paragraph [ref=e189]: Their team is creative, responsive, and delivers results in digital marketing
+            - button [ref=e190] [cursor=pointer]:
+              - img [ref=e191]
+      - generic [ref=e196]:
+        - heading "Proof We Don’t Just Talk Big, We Deliver at Scale" [level=2] [ref=e197]
+        - generic [ref=e200]:
+          - generic [ref=e202]:
+            - img "Stat" [ref=e204]
+            - generic [ref=e206]: 0.0+
+            - paragraph [ref=e207]: Average Rating from Client Reviews
+          - generic [ref=e209]:
+            - img "Stat" [ref=e211]
+            - generic [ref=e213]: 0+
+            - paragraph [ref=e214]: Happy Clients Across 20+ Industries
+          - generic [ref=e216]:
+            - img "Stat" [ref=e218]
+            - generic [ref=e220]: $0M+
+            - paragraph [ref=e221]: Annual Ad Spend Managed with Precision
+          - generic [ref=e223]:
+            - img "Stat" [ref=e225]
+            - generic [ref=e227]: 0+
+            - paragraph [ref=e228]: Experts. All Under One Roof.
+          - generic [ref=e230]:
+            - img "Stat" [ref=e232]
+            - generic [ref=e233]: "Ranked #1"
+            - paragraph [ref=e234]: AI-Driven Marketing Execution
+      - generic [ref=e236]:
+        - heading "As Featured On" [level=2] [ref=e237]
+        - paragraph [ref=e239]: Boost your brand's credibility and reach by getting showcased on top-tier news platforms. Gain instant trust, attract more visitors, and convert them into loyal customers, all with a single, one-time investment.
+        - generic [ref=e240]:
+          - img "feature-logo-0" [ref=e242]
+          - img "feature-logo-1" [ref=e244]
+          - img "feature-logo-2" [ref=e246]
+          - img "feature-logo-3" [ref=e248]
+          - img "feature-logo-4" [ref=e250]
+        - generic [ref=e251]:
+          - link "bignews" [ref=e253] [cursor=pointer]:
+            - /url: https://www.bignewsnetwork.com/news/278611821/how-local-search-algorithms-work-and-what-they-prioritize
+            - img "bignews" [ref=e254]
+          - img "feature-row2-0" [ref=e256]
+          - img "feature-row2-1" [ref=e258]
+          - img "feature-row2-2" [ref=e260]
+          - img "feature-row2-3" [ref=e262]
+        - generic [ref=e263]:
+          - img "OpenPR" [ref=e265]
+          - img "feature-row3-1" [ref=e267]
+          - img "feature-row3-2" [ref=e269]
+          - img "feature-row3-3" [ref=e271]
+          - img "feature-row3-4" [ref=e273]
+      - generic [ref=e274]:
+        - generic [ref=e275]:
+          - heading "Complete Digital Growth Services, Backed by AI & Proven Strategy" [level=2] [ref=e276]
+          - paragraph [ref=e277]: Whether you're starting from scratch or scaling up, our full-stack digital services are designed to eliminate guesswork and drive real business outcomes.
+        - generic [ref=e278]:
+          - generic [ref=e279]:
+            - img [ref=e281]
+            - heading "Website Development" [level=3] [ref=e283]
+            - paragraph [ref=e284]: Custom websites designed to convert traffic into paying customers.
+            - list [ref=e285]:
+              - listitem [ref=e286]:
+                - img [ref=e288]
+                - generic [ref=e291]: Speed-optimized builds for faster performance
+              - listitem [ref=e292]:
+                - img [ref=e294]
+                - generic [ref=e297]: Mobile-ready, responsive UX for every device
+              - listitem [ref=e298]:
+                - img [ref=e300]
+                - generic [ref=e303]: Built to scale with your business growth
+            - link "Explore Web Design & Development →" [ref=e304] [cursor=pointer]:
+              - /url: /website-development/
+              - button "Explore Web Design & Development →" [ref=e305]
+          - generic [ref=e306]:
+            - img [ref=e308]
+            - heading "AI SEO Optimization" [level=3] [ref=e310]
+            - paragraph [ref=e311]: Smarter SEO powered by AI to drive more qualified leads to you.
+            - list [ref=e312]:
+              - listitem [ref=e313]:
+                - img [ref=e315]
+                - generic [ref=e318]: Keyword strategy built for ranking dominance
+              - listitem [ref=e319]:
+                - img [ref=e321]
+                - generic [ref=e324]: Local & technical SEO that beats competitors
+              - listitem [ref=e325]:
+                - img [ref=e327]
+                - generic [ref=e330]: Boosts organic traffic with real buyer intent
+            - link "AI SEO Optimization →" [ref=e331] [cursor=pointer]:
+              - /url: /ai-seo-optimization/
+              - button "AI SEO Optimization →" [ref=e332]
+          - generic [ref=e333]:
+            - img [ref=e335]
+            - heading "PPC Management" [level=3] [ref=e337]
+            - paragraph [ref=e338]: Ad strategies engineered to generate clicks and convert them into revenue.
+            - list [ref=e339]:
+              - listitem [ref=e340]:
+                - img [ref=e342]
+                - generic [ref=e345]: ROI-driven PPC across Google, Meta & more
+              - listitem [ref=e346]:
+                - img [ref=e348]
+                - generic [ref=e351]: Funnels crafted for conversions, not traffic
+              - listitem [ref=e352]:
+                - img [ref=e354]
+                - generic [ref=e357]: Campaigns built with measurable performance
+            - link "Explore PPC Management →" [ref=e358] [cursor=pointer]:
+              - /url: /ppc-management/
+              - button "Explore PPC Management →" [ref=e359]
+          - generic [ref=e360]:
+            - img [ref=e362]
+            - heading "Social Media Management" [level=3] [ref=e364]
+            - paragraph [ref=e365]: Grow an audience and turn attention into loyal brand followers.
+            - list [ref=e366]:
+              - listitem [ref=e367]:
+                - img [ref=e369]
+                - generic [ref=e372]: Platform-specific content calendar systems
+              - listitem [ref=e373]:
+                - img [ref=e375]
+                - generic [ref=e378]: Scroll-stopping visuals that spark reactions
+              - listitem [ref=e379]:
+                - img [ref=e381]
+                - generic [ref=e384]: Community-first strategy that builds trust
+            - link "Explore Social Media Services →" [ref=e385] [cursor=pointer]:
+              - /url: /social-media-management/
+              - button "Explore Social Media Services →" [ref=e386]
+          - generic [ref=e387]:
+            - img [ref=e389]
+            - heading "App Development" [level=3] [ref=e391]
+            - paragraph [ref=e392]: Custom mobile apps designed to streamline UX and scale brands.
+            - list [ref=e393]:
+              - listitem [ref=e394]:
+                - img [ref=e396]
+                - generic [ref=e399]: Cross-platform builds for Android & iOS
+              - listitem [ref=e400]:
+                - img [ref=e402]
+                - generic [ref=e405]: Clean, intuitive UI/UX focused on users
+              - listitem [ref=e406]:
+                - img [ref=e408]
+                - generic [ref=e411]: Seamless tech stack and API integration
+            - link "Explore App Solutions →" [ref=e412] [cursor=pointer]:
+              - /url: /app-development/
+              - button "Explore App Solutions →" [ref=e413]
+          - generic [ref=e414]:
+            - img [ref=e416]
+            - heading "CRM Development" [level=3] [ref=e418]
+            - paragraph [ref=e419]: Sales automation systems that help you convert more and scale faster.
+            - list [ref=e420]:
+              - listitem [ref=e421]:
+                - img [ref=e423]
+                - generic [ref=e426]: Custom CRMs built for team-wide adoption
+              - listitem [ref=e427]:
+                - img [ref=e429]
+                - generic [ref=e432]: Full funnel tracking, insights, and triggers
+              - listitem [ref=e433]:
+                - img [ref=e435]
+                - generic [ref=e438]: Scales alongside your internal workflows
+            - link "Explore CRM Development →" [ref=e439] [cursor=pointer]:
+              - /url: /crm-development/
+              - button "Explore CRM Development →" [ref=e440]
+      - generic [ref=e443]:
+        - generic [ref=e444]:
+          - heading "Live Dashboard Access. Because You Deserve the Full Picture." [level=2] [ref=e446]
+          - paragraph [ref=e447]: Tired of chasing reports or waiting on vague updates? Our live client dashboard gives you 24/7 access to every campaign, report, and metrics in real time. Track progress, performance, and ROI instantly. No back-and-forth, no delays. Just full transparency, real clarity, and peace of mind.
+          - link "Access My Dashboard" [ref=e448] [cursor=pointer]:
+            - /url: https://clients.quikrai.us/
+            - button "Access My Dashboard" [ref=e449]
+        - iframe [ref=e451]:
+          - generic [active] [ref=f1e1]:
+            - generic "YouTube Video Player" [ref=f1e3]
+            - generic [ref=f1e6]:
+              - generic:
+                - generic:
+                  - button "Hide player controls" [ref=f1e7] [cursor=pointer]
+                  - generic [ref=f1e9]:
+                    - generic:
+                      - generic [ref=f1e12]:
+                        - generic [ref=f1e14]:
+                          - generic [ref=f1e15]:
+                            - link "Quikr AI Dashboard - AI Optimization" [ref=f1e16] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=uZWq0vCy2w4
+                            - link "Quikr AI" [ref=f1e17] [cursor=pointer]:
+                              - /url: /channel/UCYHpTpsSG4-onzZlCYWb4Jg
+                              - generic [ref=f1e18]: Quikr AI
+                          - generic [ref=f1e19]:
+                            - button [ref=f1e20] [cursor=pointer]
+                            - generic [ref=f1e21]:
+                              - generic [ref=f1e22]:
+                                - generic: Quikr AI
+                                - generic: 2 subscribers
+                              - generic [ref=f1e30]:
+                                - generic [ref=f1e31]:
+                                  - generic:
+                                    - generic:
+                                      - img
+                                  - button "Subscribe" [ref=f1e34] [cursor=pointer]:
+                                    - generic [ref=f1e35]: Subscribe
+                                - generic:
+                                  - generic:
+                                    - img
+                        - generic [ref=f1e39]:
+                          - button "Unmute" [ref=f1e41] [cursor=pointer]:
+                            - img "Unmute" [ref=f1e42]
+                          - button "Subtitles/CC turned off" [ref=f1e45] [cursor=pointer]:
+                            - generic [ref=f1e48]:
+                              - img
+                          - button "Playback Settings" [ref=f1e50] [cursor=pointer]:
+                            - generic [ref=f1e53]:
+                              - img
+                      - generic [ref=f1e55]:
+                        - button "Rewind 10 seconds" [ref=f1e56] [cursor=pointer]
+                        - button "Pause video" [ref=f1e58] [cursor=pointer]:
+                          - generic [ref=f1e61]:
+                            - img
+                        - button "Fast forward 10 seconds" [ref=f1e62] [cursor=pointer]
+                    - generic:
+                      - generic:
+                        - generic [ref=f1e66]:
+                          - generic [ref=f1e67]:
+                            - text: 0:03
+                            - generic [ref=f1e68]: Time elapsed 3 seconds
+                          - text: /
+                          - generic [ref=f1e69]:
+                            - text: 1:04
+                            - generic [ref=f1e70]: Time duration 1 minute, 4 seconds
+                        - button "Enter full screen" [ref=f1e74] [cursor=pointer]
+                    - slider "Seek slider" [ref=f1e78] [cursor=pointer]
+                    - generic [ref=f1e86]:
+                      - button "Copy link" [ref=f1e90] [cursor=pointer]:
+                        - generic [ref=f1e94]:
+                          - img
+                      - link "Watch on YouTube" [ref=f1e101] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=uZWq0vCy2w4
+                        - img [ref=f1e105]:
+                          - generic [ref=f1e107]:
+                            - img
+      - heading "What's New In The Market" [level=2] [ref=e454]
+      - generic [ref=e459]:
+        - heading "Still Wasting Money on Marketing That Doesn't Work?" [level=2] [ref=e460]
+        - paragraph [ref=e461]: Your competitors aren't waiting. Get a free AI-powered audit and uncover where your growth is leaking and how we'll fix it. We're just one click away from changing the game.
+        - button "Book My Free Audit Now" [ref=e463] [cursor=pointer]
+  - contentinfo [ref=e464]:
+    - generic [ref=e465]:
+      - generic [ref=e466]:
+        - generic [ref=e467]:
+          - img "QUIKR AI Logo" [ref=e469]
+          - generic [ref=e470]:
+            - link [ref=e471] [cursor=pointer]:
+              - /url: https://www.facebook.com/people/Quikr-AI/61573868843657/
+              - img [ref=e472]
+            - link [ref=e474] [cursor=pointer]:
+              - /url: https://www.instagram.com/quikr.ai/
+              - img [ref=e475]
+            - link [ref=e477] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/quikr-ai/
+              - img [ref=e478]
+            - link [ref=e480] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Quikr+AI/@40.3633958,-82.669505,7z/data=!3m1!4b1!4m6!3m5!1s0x24197de19c09a7e7:0x9bd7e8f80e5831cf!8m2!3d40.3633958!4d-82.669505!16s%2Fg%2F11w1d0_gv3?entry=ttu&g_ep=EgoyMDI1MTAyOC4wIKXMDSoASAFQAw%3D%3D
+              - img [ref=e481]
+            - link [ref=e483] [cursor=pointer]:
+              - /url: https://www.youtube.com/@quikrai
+              - img [ref=e484]
+            - link [ref=e486] [cursor=pointer]:
+              - /url: https://clutch.co/profile/quikr-ai
+              - img [ref=e487]
+          - paragraph [ref=e490]: Since 2023
+        - generic [ref=e491]:
+          - generic [ref=e492]: Dashboard
+          - paragraph [ref=e493]: Real-time, 24/7 dashboard. See campaigns, reports, and ROI instantly. No delays, no chasing, just clarity.
+          - link "Log In" [ref=e494] [cursor=pointer]:
+            - /url: https://clients.quikrai.us/
+        - generic [ref=e495]:
+          - generic [ref=e496]: Services
+          - list [ref=e497]:
+            - listitem [ref=e498]:
+              - link "AI SEO Optimization" [ref=e499] [cursor=pointer]:
+                - /url: /ai-seo-optimization/
+                - img [ref=e500]
+                - generic [ref=e502]: AI SEO Optimization
+            - listitem [ref=e503]:
+              - link "PPC Management" [ref=e504] [cursor=pointer]:
+                - /url: /ppc-management/
+                - img [ref=e505]
+                - generic [ref=e507]: PPC Management
+            - listitem [ref=e508]:
+              - link "Social Media Management" [ref=e509] [cursor=pointer]:
+                - /url: /social-media-management/
+                - img [ref=e510]
+                - generic [ref=e512]: Social Media Management
+            - listitem [ref=e513]:
+              - link "Website Development" [ref=e514] [cursor=pointer]:
+                - /url: /website-development/
+                - img [ref=e515]
+                - generic [ref=e517]: Website Development
+            - listitem [ref=e518]:
+              - link "App Development" [ref=e519] [cursor=pointer]:
+                - /url: /app-development/
+                - img [ref=e520]
+                - generic [ref=e522]: App Development
+            - listitem [ref=e523]:
+              - link "CRM Development" [ref=e524] [cursor=pointer]:
+                - /url: /crm-development/
+                - img [ref=e525]
+                - generic [ref=e527]: CRM Development
+        - generic [ref=e528]:
+          - generic [ref=e529]: Locations
+          - list [ref=e530]:
+            - listitem [ref=e531]:
+              - link "SEO Company in Columbus, OH" [ref=e532] [cursor=pointer]:
+                - /url: /seo-company-columbus-oh/
+                - img [ref=e533]
+                - generic [ref=e535]: SEO Company in Columbus, OH
+            - listitem [ref=e536]:
+              - link "SEO Company in Cleveland, OH" [ref=e537] [cursor=pointer]:
+                - /url: /seo-company-cleveland-oh/
+                - img [ref=e538]
+                - generic [ref=e540]: SEO Company in Cleveland, OH
+            - listitem [ref=e541]:
+              - link "SEO Company in Buffalo, NY" [ref=e542] [cursor=pointer]:
+                - /url: /seo-company-buffalo-ny/
+                - img [ref=e543]
+                - generic [ref=e545]: SEO Company in Buffalo, NY
+            - listitem [ref=e546]:
+              - link "SEO Company in New York City, NY" [ref=e547] [cursor=pointer]:
+                - /url: /seo-company-nyc-ny/
+                - img [ref=e548]
+                - generic [ref=e550]: SEO Company in New York City, NY
+        - generic [ref=e551]:
+          - generic [ref=e552]: Contact
+          - generic [ref=e553]:
+            - generic [ref=e554]:
+              - img [ref=e555]
+              - paragraph [ref=e558]: Dublin, OH
+            - generic [ref=e559]:
+              - img [ref=e560]
+              - 'link "Phone: (380) 800-5486" [ref=e562] [cursor=pointer]':
+                - /url: tel:(380) 800-5486
+            - generic [ref=e563]:
+              - img [ref=e564]
+              - link "info@quikrai.us" [ref=e566] [cursor=pointer]:
+                - /url: mailto:info@quikrai.us
+      - separator [ref=e567]
+      - generic [ref=e568]:
+        - paragraph [ref=e569]: © Quikr AI 2026. All rights reserved.
+        - generic [ref=e570]:
+          - link "Terms & Conditions" [ref=e571] [cursor=pointer]:
+            - /url: /terms-and-conditions/
+          - generic [ref=e572]: "|"
+          - link "Privacy Policy" [ref=e573] [cursor=pointer]:
+            - /url: /privacy-policy/
+          - generic [ref=e574]: "|"
+          - link "Sitemap" [ref=e575] [cursor=pointer]:
+            - /url: /sitemap/
+    - link:
+      - /url: "tel: (380) 800-5486"
+      - img [ref=e577] [cursor=pointer]
+  - iframe [ref=e579]:
+    
+  - alert [ref=e580]

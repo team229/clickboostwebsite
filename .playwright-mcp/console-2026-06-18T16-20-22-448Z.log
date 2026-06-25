@@ -1,0 +1,6 @@
+[     728ms] [WARNING] Unrecognized feature: 'web-share'. @ https://www.quikrai.us/:0
+[    7784ms] [LOG] [Analytics] Umami script loaded with website ID: dcaf5427-dd2b-4472-8b29-f459d1ca8887 @ https://app.letshab.com/assets/index-CaRmjJfj.js:252
+[    8314ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://gateway.umami.is/api/send:0
+[    8315ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://gateway.umami.is/api/send:0
+[    8765ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://api.letshab.com/api/v1/rag/bots/settings/:0
+[    9098ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://www.quikrai.us/umami/api/send/:0

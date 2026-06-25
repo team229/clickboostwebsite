@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clickboostmedia - AI-powered Digital Marketing Agency</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Kanit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <img src="imagess/logo-transparent.png" alt="Clickboostmedia" class="logo-img" width="120" height="40">
+    </a>
+    <nav class="nav">
+      <a href="index.html" class="nav-link active" data-page="index">Home</a>
+      <div class="nav-dropdown">
+        <button class="nav-btn">Services <svg width="10" height="6" viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" stroke="currentColor" fill="none" stroke-width="1.5"/></svg></button>
+                <div class="dropdown-menu">
+          <a href="ai-seo.html" class="dropdown-item">
+            <span class="dropdown-icon">⌁</span>
+            <span class="dropdown-text"><strong>SEO Services</strong><br><small>On-page, off-page, technical, local, AI/GEO optimization</small></span>
+          </a>
+          <a href="social-media.html" class="dropdown-item">
+            <span class="dropdown-icon">◍</span>
+            <span class="dropdown-text"><strong>Social Media Marketing</strong><br><small>Strategy, content, community management, paid social</small></span>
+          </a>
+          <a href="#" class="dropdown-item">
+            <span class="dropdown-icon">▣</span>
+            <span class="dropdown-text"><strong>Web Development</strong><br><small>Custom websites, WordPress, ecommerce, landing pages</small></span>
+          </a>
+          <a href="#" class="dropdown-item">
+            <span class="dropdown-icon">◰</span>
+            <span class="dropdown-text"><strong>Application Development</strong><br><small>iOS, Android, cross-platform apps from concept to launch</small></span>
+          </a>
+          <a href="#" class="dropdown-item">
+            <span class="dropdown-icon">✦</span>
+            <span class="dropdown-text"><strong>Content Marketing</strong><br><small>Blog strategy, copywriting, video scripts, email sequences</small></span>
+          </a>
+        </div></div>
+      
+      <a href="case-studies.html" class="nav-link" data-page="case-studies">Case Studies</a>
+      <a href="about.html" class="nav-link" data-page="about">About Us</a>
+      <a href="contact.html" class="nav-link" data-page="contact">Contact Us</a>
+    </nav>
+    <div class="header-actions">
+      <a href="tel:+16193654177" class="btn btn-outline btn-sm">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+        +1 (619) 365-4177
+      </a>
+      <a href="#" class="btn btn-outline btn-sm">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+        Audit With AI
+      </a>
+      <a href="https://calendly.com/quikrai/" target="_blank" class="btn btn-primary btn-sm">Book Strategy Call</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero-cbm">
+  <div class="hero-cbm-bg"></div>
+  <video class="hero-cbm-video" autoplay loop muted playsinline>
+    <source src="hero-bg.mp4" type="video/mp4">
+  </video>
+  <div class="hero-cbm-overlay"></div>
+  <div class="hero-cbm-grid">
+    <div class="hero-cbm-content">
+      <span class="hero-cbm-badge">Growth-First Digital Agency</span>
+      <h1>We Build Brands That<br><span>Get Noticed</span></h1>
+      <p>Clickboostmedia delivers data-driven marketing, web development, and creative strategies that turn clicks into customers and brands into legends.</p>
+      <div class="hero-cbm-actions">
+        <a href="contact.html" class="btn btn-primary btn-lg">Get a Free Audit</a>
+        <a href="case-studies.html" class="btn btn-outline btn-lg">View Our Work</a>
+      </div>
+      <div class="hero-cbm-stats">
+        <div class="hero-cbm-stat">
+          <strong>120+</strong>
+          <span>Happy Clients Across 20+ Industries</span>
+        </div>
+        <div class="hero-cbm-stat">
+          <strong>$1M+</strong>
+          <span>Annual Ad Spend Managed with Precision</span>
+        </div>
+        <div class="hero-cbm-stat">
+          <strong>30+</strong>
+          <span>Experts. All Under One Roof.</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-cbm-form">
+      <div class="contact-form-card">
+        <h3>Get Your Free AI-Powered SEO Audit</h3>
+        <p>We'll analyze your website and find opportunities to grow your traffic.</p>
+        <form>
+          <div class="form-row">
+            <div class="form-group"><input type="text" placeholder="Name" required></div>
+            <div class="form-group"><input type="email" placeholder="Email" required></div>
+          </div>
+          <div class="form-group"><input type="tel" placeholder="Phone Number"></div>
+          <div class="form-group"><textarea placeholder="Tell us about your business..."></textarea></div>
+          <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center; padding: 14px;">Get My Free Audit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AI PLATFORMS SECTION -->
+<section class="section-two-boxes">
+  <div class="container">
+    <div class="two-boxes">
+      <div class="info-box">
+        <div class="info-box-glow"></div>
+        <span class="info-box-tag">The Search Landscape Has Changed</span>
+        <h2>AI Is the New Search Engine</h2>
+        <p>Google's AI Overviews, ChatGPT, Gemini, and Perplexity now shape how customers find you. We optimize your brand to rank across every major AI platform — not just Google.</p>
+        <div class="ai-platform-logos">
+          <div class="ai-platform-item">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/googlegemini.svg" alt="AI Overviews" class="ai-logo">
+            <span>AI Overviews</span>
+          </div>
+          <div class="ai-platform-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="ChatGPT" class="ai-logo">
+            <span>ChatGPT</span>
+          </div>
+          <div class="ai-platform-item">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/googlegemini.svg" alt="Gemini" class="ai-logo">
+            <span>Gemini</span>
+          </div>
+          <div class="ai-platform-item">
+            <img src="https://perplexity.ai/favicon.ico" alt="Perplexity" class="ai-logo">
+            <span>Perplexity</span>
+          </div>
+          <div class="ai-platform-item">
+            <img src="https://claude.ai/favicon-32x32.png" alt="Claude" class="ai-logo">
+            <span>Claude</span>
+          </div>
+        </div>
+      </div>
+      <div class="info-box">
+        <div class="info-box-glow"></div>
+        <span class="info-box-tag">Optimized for AI Discovery</span>
+        <h2>Rank Across Every AI Platform</h2>
+        <p>We structure your content for AI-readiness — from schema markup to conversational NLP — so your brand gets cited, recommended, and trusted by every AI assistant your customers use.</p>
+        <div class="box-results">
+          <div class="box-result-item">
+            <div class="box-result-icon box-result-ai">✓</div>
+            <div>
+              <strong>AI-Optimized Content</strong>
+              <span>Structured for AI overview citations</span>
+            </div>
+          </div>
+          <div class="box-result-item">
+            <div class="box-result-icon box-result-ai">✓</div>
+            <div>
+              <strong>Entity-Based SEO</strong>
+              <span>Build topical authority AI trusts</span>
+            </div>
+          </div>
+          <div class="box-result-item">
+            <div class="box-result-icon box-result-ai">✓</div>
+            <div>
+              <strong>Conversational NLP</strong>
+              <span>Matches natural language queries</span>
+            </div>
+          </div>
+          <div class="box-result-item">
+            <div class="box-result-icon box-result-ai">✓</div>
+            <div>
+              <strong>Schema & Structured Data</strong>
+              <span>Feeds rich answers to AI models</span>
+            </div>
+          </div>
+      </div>
+    </div>
+</section>
+
+<!-- BRANDS SECTION -->
+<section class="section-logos">
+  <div class="container">
+    <h2>The Choice of <span>Forward Thinking Brands</span></h2>
+    <div class="logo-scroll">
+      <div class="logo-track">
+        <img src="https://sulfablaw.com/favicon.ico" alt="Sulfa Blaw">
+        <img src="https://www.tiptophybrid.com/favicon.ico" alt="Tip Top Hybrid">
+        <img src="https://mjlimos.com/favicon.ico" alt="MJ Limos">
+        <img src="https://hiloheatingandair.com/favicon.ico" alt="Hilo Heating & Air">
+      </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section-testimonials">
+  <div class="container">
+    <h2>What Our Clients Say About <span>Clickboostmedia</span></h2>
+    <div class="testimonial-cards">
+      <div class="t-card">
+        <div class="t-card-avatar">👤</div>
+        <div class="t-card-stars">★★★★★</div>
+        <h4>Michael Thompson</h4>
+        <p>Clickboostmedia transformed our online presence. Our leads have tripled since we started working with them. Absolutely worth it.</p>
+      </div>
+      <div class="t-card">
+        <div class="t-card-avatar">👤</div>
+        <div class="t-card-stars">★★★★★</div>
+        <h4>Jennifer Collins</h4>
+        <p>Professional, responsive, and results-driven. They took the time to understand our business and delivered beyond expectations.</p>
+      </div>
+      <div class="t-card">
+        <div class="t-card-avatar">👤</div>
+        <div class="t-card-stars">★★★★★</div>
+        <h4>Robert Anderson</h4>
+        <p>We saw a massive boost in our search rankings within weeks. The team at Clickboostmedia really knows digital marketing.</p>
+      </div>
+      <div class="t-card">
+        <div class="t-card-avatar">👤</div>
+        <div class="t-card-stars">★★★★★</div>
+        <h4>Emily Davis</h4>
+        <p>Hands down the best marketing agency we've worked with. Our revenue grew 40% in the first three months of our campaign.</p>
+      </div>
+    </div>
+</section>
+
+<!-- STATS SECTION -->
+<section class="section-stats">
+  <div class="container">
+    <h2>Proof We Don't Just Talk Big, We Deliver at Scale</h2>
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="stat-number">4.9+</div>
+        <p>Average Rating from Client Reviews</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">120+</div>
+        <p>Happy Clients Across 20+ Industries</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">$1M+</div>
+        <p>Annual Ad Spend Managed with Precision</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">30+</div>
+        <p>Experts. All Under One Roof.</p>
+      </div>
+    </div>
+</section>
+
+
+
+<!-- SERVICES -->
+<section class="section-services">
+  <div class="container">
+    <div class="services-header">
+      <h2>Complete Digital Growth Services, Backed by <span>AI & Proven Strategy</span></h2>
+      <p>Whether you're starting from scratch or scaling up, our full-stack digital services are designed to eliminate guesswork and drive real business outcomes.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Website Development</h3>
+        <p>Custom websites designed to convert traffic into paying customers.</p>
+        <ul>
+          <li>Speed-optimized builds for faster performance</li>
+          <li>Mobile-ready, responsive UX for every device</li>
+          <li>Built to scale with your business growth</li>
+        </ul>
+        <a href="#" class="service-link">Explore Web Design & Development →</a>
+      </div>
+      <div class="service-card">
+        <h3>AI SEO Optimization</h3>
+        <p>Smarter SEO powered by AI to drive more qualified leads to you.</p>
+        <ul>
+          <li>Keyword strategy built for ranking dominance</li>
+          <li>Local & technical SEO that beats competitors</li>
+          <li>Boosts organic traffic with real buyer intent</li>
+        </ul>
+        <a href="ai-seo.html" class="service-link">Explore AI SEO Optimization →</a>
+      </div>
+      <div class="service-card">
+        <h3>PPC Management</h3>
+        <p>Ad strategies engineered to generate clicks and convert them into revenue.</p>
+        <ul>
+          <li>ROI-driven PPC across Google, Meta & more</li>
+          <li>Funnels crafted for conversions, not traffic</li>
+          <li>Campaigns built with measurable performance</li>
+        </ul>
+        <a href="ppc.html" class="service-link">Explore PPC Management →</a>
+      </div>
+      <div class="service-card">
+        <h3>Social Media Management</h3>
+        <p>Grow an audience and turn attention into loyal brand followers.</p>
+        <ul>
+          <li>Platform-specific content calendar systems</li>
+          <li>Scroll-stopping visuals that spark reactions</li>
+          <li>Community-first strategy that builds trust</li>
+        </ul>
+        <a href="social-media.html" class="service-link">Explore Social Media Services →</a>
+      </div>
+      <div class="service-card">
+        <h3>App Development</h3>
+        <p>Custom mobile apps designed to streamline UX and scale brands.</p>
+        <ul>
+          <li>Cross-platform builds for Android & iOS</li>
+          <li>Clean, intuitive UI/UX focused on users</li>
+          <li>Seamless tech stack and API integration</li>
+        </ul>
+        <a href="#" class="service-link">Explore App Solutions →</a>
+      </div>
+      <div class="service-card">
+        <h3>CRM Development & AI Agent Setup</h3>
+        <p>Sales automation systems that help you convert more and scale faster, powered by intelligent AI agents.</p>
+        <ul>
+          <li>Custom CRMs built for team-wide adoption</li>
+          <li>Full funnel tracking, insights, and triggers</li>
+          <li>AI agents that handle calls, qualify leads, and book appointments 24/7</li>
+        </ul>
+        <a href="#" class="service-link">Explore CRM & AI Solutions →</a>
+      </div>
+    </div>
+</section>
+
+<!-- FEATURED CASE STUDY -->
+<section class="section-case-study">
+  <div class="container">
+    <div class="case-study-grid">
+      <div class="case-study-content">
+        <span class="badge">FEATURED CASE STUDY</span>
+        <h2>Winning Back Visibility in an AI Era</h2>
+        <ul>
+          <li>Buyers shifted to AI assistants like ChatGPT and Copilot</li>
+          <li>We helped the client earn prominent citations in AI Overviews and generative answers.</li>
+          <li>The result: triple-digit growth in AI-driven traffic, leads, and non-branded visibility.</li>
+        </ul>
+        <div class="hero-cbm-actions" style="justify-content: flex-start; margin-bottom: 0;">
+          <a href="#" class="btn btn-outline btn-lg" style="background:#fff;border-color:#d1d5db;color:#111;">Explore The Case Study →</a>
+          <a href="contact.html" class="btn btn-primary btn-lg">Get My Free Proposal</a>
+        </div>
+      </div>
+      <div class="case-study-stats">
+        <div class="stat-item">
+          <h3>286%</h3>
+          <p>INCREASE IN TRAFFIC FROM GENERATIVE AI SOURCES</p>
+        </div>
+        <div class="stat-item logo-item" style="background:#111;display:flex;align-items:center;justify-content:center;">
+          <img src="https://www.tiptophybrid.com/wp-content/uploads/2025/05/Tip-Top-Hybrid-Logo-White.png" alt="Tip Top Hybrid" style="max-width:80%;">
+        </div>
+        <div class="stat-item">
+          <h3>KEYWORD RANKINGS GROWTH</h3>
+          <svg class="chart-svg" viewBox="0 0 100 40" preserveAspectRatio="none">
+            <path d="M0 30 L10 25 L20 35 L30 15 L40 20 L50 10 L60 25 L70 20 L80 15 L90 20 L100 5" fill="none" stroke="#0082b0" stroke-width="2"/>
+          </svg>
+        </div>
+        <div class="stat-item">
+          <h3>116%</h3>
+          <p>HIGHER VISIBILITY IN LLMS THAN CLOSEST COMPETITOR</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- WHAT'S NEW -->
+<section class="section-whatsnew">
+  <div class="container">
+    <h2>What's New In <span>The Market</span></h2>
+    <div class="whatsnew-video">
+      <video controls playsinline poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400'%3E%3Crect fill='%23eef2ff' width='600' height='400'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' fill='%236b7280' font-size='16' dy='.3em'%3EChatGPT Video%3C/text%3E%3C/svg%3E">
+        <source src="https://QuikrAI.s3.us-east-005.backblazeb2.com/Videos/Quikr_ChatGpt.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="section-cta">
+  <div class="container">
+    <div class="cta-card">
+      <h2>Still Wasting Money on Marketing That Doesn't Work?</h2>
+      <p>Your competitors aren't waiting. Get a free AI-powered audit and uncover where your growth is leaking and how we'll fix it. We're just one click away from changing the game.</p>
+      <a href="contact.html" class="btn btn-primary btn-lg">Book My Free Audit Now</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <img src="imagess/logo-transparent.png" alt="CLICKBOOSTMEDIA Logo" class="logo-img" width="120" height="40">
+        </a>
+        <p class="since">Since 2023</p>
+      </div>
+      <div class="footer-col">
+        <h4>Dashboard</h4>
+        <p>Real-time, 24/7 dashboard. See campaigns, reports, and ROI instantly. No delays, no chasing, just clarity.</p>
+        <a href="https://clients.quikrai.us/" target="_blank" class="btn btn-primary btn-sm">Log In</a>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="ai-seo.html"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%230082b0' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E" alt=""> AI SEO Optimization</a></li>
+          <li><a href="ppc.html"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%230082b0' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E" alt=""> PPC Management</a></li>
+          <li><a href="social-media.html"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%230082b0' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E" alt=""> Social Media Management</a></li>
+          <li><a href="#"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%230082b0' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E" alt=""> Website Development</a></li>
+          <li><a href="#"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%230082b0' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E" alt=""> App Development</a></li>
+          <li><a href="#"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%230082b0' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E" alt=""> CRM Development</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Locations</h4>
+        <ul>
+          <li><a href="#"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%230082b0' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E" alt=""> SEO Company in Columbus, OH</a></li>
+          <li><a href="#"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%230082b0' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E" alt=""> SEO Company in Cleveland, OH</a></li>
+          <li><a href="#"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%230082b0' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E" alt=""> SEO Company in Buffalo, NY</a></li>
+          <li><a href="#"><img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%230082b0' stroke-width='2.5'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E" alt=""> SEO Company in New York City, NY</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="footer-contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Birmingham, AL & New Delhi</span>
+        </div>
+        <div class="footer-contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          <a href="tel:+16193654177">+1 (619) 365-4177</a>
+        </div>
+        <div class="footer-contact-item">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <a href="mailto:info@clickboostmedia.com">info@clickboostmedia.com</a>
+        </div>
+      </div>
+    <div class="footer-bottom">
+      <p>© Clickboostmedia 2026. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Terms & Conditions</a>
+        <span>|</span>
+        <a href="#">Privacy Policy</a>
+        <span>|</span>
+        <a href="#">Sitemap</a>
+      </div>
+    </div>
+</footer>
+
+<!-- FLOATING PHONE -->
+<a href="tel:+16193654177" class="floating-phone" aria-label="Call us">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+</a>
+
+<!-- BBB BADGE -->
+<div class="bbb-badge">
+  <div class="bbb-icon">
+    <svg width="20" height="20" viewBox="0 0 100 100"><rect width="100" height="100" fill="white"/><text x="50" y="55" text-anchor="middle" fill="#006daa" font-size="11" font-weight="bold" font-family="Arial">BBB</text></svg>
+  </div>
+  <div>ACCREDITED<br>BUSINESS</div>
+</div>
+
+<script src="js/script.js"></script></body>
+</html>
