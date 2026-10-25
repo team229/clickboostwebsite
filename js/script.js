@@ -1,6 +1,6 @@
 (function() {
-  var page = location.pathname.split('/').pop() || 'index.html';
-  page = page.replace('.html', '');
+  var segments = location.pathname.split('/').filter(Boolean);
+  var page = segments.length ? segments[segments.length - 1] : 'index';
 
   document.querySelectorAll('.nav-link').forEach(function(link) {
     if (link.getAttribute('data-page') === page) {
