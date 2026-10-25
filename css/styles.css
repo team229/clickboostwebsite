@@ -1559,3 +1559,20 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
   border-radius: 0 0 8px 0;
 }
 .skip-link:focus { left: 0; }
+
+/* ===== CONTACT FORM STATUS ===== */
+.hp-field {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.form-status {
+  min-height: 20px;
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.form-status.is-success { color: #067647; font-weight: 600; }
+.form-status.is-error { color: #b42318; font-weight: 600; }
