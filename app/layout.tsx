@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 },
   },
   verification: { google: "etMp9dhuMT1icYJIHD_u30uMpAzCkqm2OWsx-dKfWAE" },
-  icons: { icon: "/favicon.png", apple: "/favicon.png" },
+  icons: { icon: [{ url: "/favicon.png", sizes: "512x512", type: "image/png" }], apple: "/apple-icon.png" },
   openGraph: {
     type: "website",
     siteName: site.name,
