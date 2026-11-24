@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 
 const d = (ms: number) => ({ "--d": `${ms}ms` }) as React.CSSProperties;
 
-const title = "ClickBoostMedia: Built to stand out. Designed to grow.";
+const title = "ClickBoostMedia.: Built to stand out. Designed to grow.";
 const description =
   "An independent digital growth agency connecting strategy, creativity and technology — SEO, paid media, social, web and app development, CRM and AI automation.";
 

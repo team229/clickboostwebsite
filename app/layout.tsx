@@ -12,8 +12,8 @@ const head = Manrope({ subsets: ["latin"], variable: "--head", display: "swap" }
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "ClickBoostMedia: Built to stand out. Designed to grow.",
-    template: "%s | ClickBoostMedia",
+    default: "ClickBoostMedia.: Built to stand out. Designed to grow.",
+    template: "%s | ClickBoostMedia.",
   },
   description:
     "An independent digital growth agency connecting strategy, creativity and technology across SEO, paid media, social, web, apps, CRM and AI automation.",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     siteName: site.name,
     locale: "en_US",
     url: site.url,
-    title: "ClickBoostMedia: Built to stand out. Designed to grow.",
+    title: "ClickBoostMedia.: Built to stand out. Designed to grow.",
     description:
       "An independent digital growth agency connecting strategy, creativity and technology across strategy, search, social, web and apps.",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "ClickBoostMedia" }],
